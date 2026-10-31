@@ -486,8 +486,8 @@ export function GlideHero({
 
         <p className="hero-soft hero-d-2 mt-6 max-w-2xl text-balance text-[16px] leading-[1.55] text-[#6B6A67] md:mt-9 md:text-[19px] md:leading-[1.6]">
           {fr
-            ? "Vitreen connecte votre inventaire à Gmail et WhatsApp, et garde en mémoire chaque relation avec vos collectionneurs."
-            : "Vitreen connects your inventory to Gmail and WhatsApp, and keeps every collector relationship in mind."}
+            ? "Vitreen connecte votre inventaire à Gmail et WhatsApp."
+            : "Vitreen connects your inventory to Gmail and WhatsApp."}
         </p>
 
         <div className="hero-soft hero-d-3 mt-10 flex w-full justify-center md:mt-12">

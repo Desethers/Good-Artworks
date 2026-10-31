@@ -8,23 +8,20 @@ import LandingOffersFr from "@/components/landing/LandingOffersFr";
 import LandingFaqFr from "@/components/landing/LandingFaqFr";
 import LandingCtaFr from "@/components/landing/LandingCtaFr";
 
-import WhoVitreenIsFor from "@/components/WhoVitreenIsFor";
 import { alternates } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: {
-    absolute:
-      "Vitreen — Outils de vente et inventaire pour l’art, le design et les objets de collection",
+    absolute: "Vitreen — Votre inventaire dans Gmail et WhatsApp",
   },
   description:
-    "Vitreen propose des outils de vente et de gestion d’inventaire pour les galeries d’art, marchands de design et professionnels des objets de collection. Retrouvez œuvres, prix, disponibilités et relations clients depuis Gmail, WhatsApp et Gallery OS.",
+    "Retrouvez n’importe quelle œuvre de votre inventaire et envoyez sa fiche depuis Gmail ou WhatsApp. Pour les galeries d’art, marchands de design et antiquaires.",
   alternates: alternates("fr", "/"),
   openGraph: {
     url: "/fr",
-    title:
-      "Vitreen — Outils de vente et inventaire pour l’art, le design et les objets de collection",
+    title: "Vitreen — Votre inventaire dans Gmail et WhatsApp",
     description:
-      "Vitreen propose des outils de vente et de gestion d’inventaire pour les galeries d’art, marchands de design et professionnels des objets de collection. Retrouvez œuvres, prix, disponibilités et relations clients depuis Gmail, WhatsApp et Gallery OS.",
+      "Retrouvez n’importe quelle œuvre de votre inventaire et envoyez sa fiche depuis Gmail ou WhatsApp. Pour les galeries d’art, marchands de design et antiquaires.",
   },
 };
 
@@ -33,10 +30,7 @@ export default function Home() {
     <main className="relative bg-white">
       <LandingNavFr />
       <GlideHero showConnectionScene={false} lang="fr" />
-      <ConversationSections
-        copy={CONVERSATION_SECTIONS_FR}
-        afterWhatsApp={<WhoVitreenIsFor lang="fr" />}
-      />
+      <ConversationSections copy={CONVERSATION_SECTIONS_FR} />
       <LandingOffersFr />
       <LandingFaqFr />
       <LandingCtaFr />

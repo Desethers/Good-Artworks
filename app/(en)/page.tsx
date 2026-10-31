@@ -7,20 +7,19 @@ import ConversationSections, {
 import LandingOffers from "@/components/landing/LandingOffers";
 import LandingFaq from "@/components/landing/LandingFaq";
 import LandingCta from "@/components/landing/LandingCta";
-import WhoVitreenIsFor from "@/components/WhoVitreenIsFor";
 
 import { alternates } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: { absolute: "Vitreen — Sales and inventory software for art galleries" },
+  title: { absolute: "Vitreen — Your inventory in Gmail and WhatsApp" },
   description:
-    "Sales and inventory tools for art galleries and dealers in design and collectible objects.",
+    "Find any work in your inventory and send its details from Gmail or WhatsApp. For art galleries, design and antique dealers.",
   alternates: alternates("en", "/"),
   openGraph: {
     url: "/",
-    title: "Vitreen — Sales and inventory software for art galleries",
+    title: "Vitreen — Your inventory in Gmail and WhatsApp",
     description:
-      "Sales and inventory tools for art galleries and dealers in design and collectible objects.",
+      "Find any work in your inventory and send its details from Gmail or WhatsApp. For art galleries, design and antique dealers.",
   },
 };
 
@@ -29,10 +28,7 @@ export default function Home() {
     <main className="relative bg-white">
       <LandingNav />
       <GlideHero showConnectionScene={false} />
-      <ConversationSections
-        copy={CONVERSATION_SECTIONS_EN}
-        afterWhatsApp={<WhoVitreenIsFor lang="en" />}
-      />
+      <ConversationSections copy={CONVERSATION_SECTIONS_EN} />
       <LandingOffers />
       <LandingFaq />
       <LandingCta />

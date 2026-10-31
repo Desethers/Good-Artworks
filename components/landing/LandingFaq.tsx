@@ -20,18 +20,6 @@ const ITEMS = [
     a: "No. Vitreen prepares the card and notes who it is for. A person on your team always forwards it, from their own WhatsApp.",
   },
   {
-    q: "Where does the AI get its answers?",
-    a: "Only from your own records: artworks, prices, availability, contacts. If it does not know, it says so.",
-  },
-  {
-    q: "Does Vitreen read my WhatsApp?",
-    a: "No. Your usual number stays as it is. Vitreen only sees what is written to its two numbers: the Assistant number for your team, and the dedicated number you give your collectors.",
-  },
-  {
-    q: "How long does setup take?",
-    a: "About a week, from the first conversation to your team using Vitreen in WhatsApp.",
-  },
-  {
     q: "What happens if I stop?",
     a: "You keep your data: it belongs to your gallery. Your inventory is handed back to you on request.",
   },

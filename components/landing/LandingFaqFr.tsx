@@ -20,18 +20,6 @@ const ITEMS = [
     a: "Non. Vitreen prépare la fiche et note pour qui elle est. Une personne de votre équipe la transfère toujours, depuis son propre WhatsApp.",
   },
   {
-    q: "D’où l’IA tire-t-elle ses réponses ?",
-    a: "Uniquement de vos propres fiches : œuvres, prix, disponibilités, contacts. Si elle ne sait pas, elle le dit.",
-  },
-  {
-    q: "Vitreen lit-il mon WhatsApp ?",
-    a: "Non. Votre numéro habituel reste tel quel. Vitreen ne voit que ce qui est écrit à ses deux numéros : le numéro Assistant pour votre équipe, et le numéro dédié que vous donnez à vos collectionneurs.",
-  },
-  {
-    q: "Combien de temps prend la mise en place ?",
-    a: "Une semaine environ, du premier échange jusqu’à l’utilisation de Vitreen dans WhatsApp par votre équipe.",
-  },
-  {
     q: "Que se passe-t-il si j’arrête ?",
     a: "Vous gardez vos données : elles appartiennent à votre galerie. Votre inventaire vous est rendu sur simple demande.",
   },
