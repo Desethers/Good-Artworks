@@ -1,10 +1,11 @@
 // Render a conversation as an MP4: messages appear one by one.
-// npm run animate -- --conversation en-anything-new [--output output/video/x.mp4]
+// npm run animate -- --conversation en-anything-new [--output ~/Movies/WA-Studio/x.mp4]
 // npm run animate -- --all
 // Frames are captured one by one (animations paused and seeked), so the
 // video is identical on every run, whatever the machine speed.
 import fs from "node:fs";
 import path from "node:path";
+import os from "node:os";
 import { spawn } from "node:child_process";
 import { loadConversation } from "../src/content.js";
 import { tokens } from "../src/tokens.js";
@@ -16,6 +17,9 @@ const all = process.argv.includes("--all");
 const ids = all
   ? JSON.parse(fs.readFileSync(path.join(root, "data/conversations.json"), "utf8")).map((c) => c.id)
   : [arg("conversation", "master-01")];
+
+// Videos are kept out of the repository (WA_VIDEO_DIR overrides the folder).
+const videoDir = process.env.WA_VIDEO_DIR ?? path.join(os.homedir(), "Movies/WA-Studio");
 
 const sender = (msg) => (msg.type === "incoming_text" ? "them" : "me");
 
@@ -49,10 +53,7 @@ function encode(file, frames) {
 const stage = await openStage({ height, scale: m.scale });
 for (const id of ids) {
   const conversation = loadConversation(root, id);
-  const output = path.resolve(
-    root,
-    all ? `output/video/${id}.mp4` : arg("output", `output/video/${id}.mp4`)
-  );
+  const output = path.resolve(videoDir, all ? `${id}.mp4` : arg("output", `${id}.mp4`));
   await stage.load(conversation);
   const starts = schedule(conversation.messages);
   const a = m.appear;
@@ -83,8 +84,6 @@ for (const id of ids) {
     await video.write(await stage.page.screenshot({ clip: stage.clip, type: "png" }));
   }
   await video.end();
-  console.log(
-    `Animated ${id} → ${path.relative(root, output)} (${duration.toFixed(1)} s, ${frameCount} frames)`
-  );
+  console.log(`Animated ${id} → ${output} (${duration.toFixed(1)} s, ${frameCount} frames)`);
 }
 await stage.close();
