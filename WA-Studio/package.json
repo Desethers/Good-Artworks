@@ -5,6 +5,8 @@
   "scripts": {
     "render": "tsx scripts/render.jsx",
     "render:all": "tsx scripts/render.jsx --all",
+    "animate": "tsx scripts/animate.jsx",
+    "animate:all": "tsx scripts/animate.jsx --all",
     "render:master": "tsx scripts/render.jsx --conversation master-01 --output output/master-render.png",
     "compare": "node scripts/compare.mjs",
     "sync:sanity": "node scripts/sync-sanity.mjs",

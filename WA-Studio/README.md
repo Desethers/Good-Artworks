@@ -43,6 +43,11 @@ Polices requises : SF Pro et SF Pro Text dans `/Library/Fonts`.
 - `npm run render:all` : rend toutes les conversations de
   `data/conversations.json` dans `output/<id>.png`. Si une conversation ne tient
   pas dans 838 px, le rendu s'arrête (relancer avec `--height`).
+- `npm run animate -- --conversation <id>` : vidéo MP4 de la conversation
+  (`output/video/<id>.mp4`, 810 × 1676, 30 i/s). Les messages apparaissent un
+  par un avec un effet proche de WhatsApp. Réglages dans `tokens.motion`
+  (approximation, absente du Figma). `npm run animate:all` les génère toutes.
+  Demande `ffmpeg`.
 - `npm run sync:sanity` : récupère les œuvres (infos + photos) du dataset Sanity
   de gallery-OS (projet `d0op0luu`, dataset `production`) dans `data/sanity/`.
   Une conversation cite une œuvre par son `id` (le slug Sanity, ou l'`_id`

@@ -156,6 +156,22 @@ export const tokens = {
   },
 
   ticks: { width: 10.96, height: 8.29, color: ink.tick, back: ink.tickBack },
+
+  // Animation (npm run animate). Not in the Figma: an approximation of the
+  // WhatsApp iOS bubble appearance, to be tuned by eye.
+  motion: {
+    fps: 30,
+    scale: 2, // video pixels per canvas pixel (405 × 838 → 810 × 1676)
+    start: 0.6, // s before the first message
+    appear: {
+      duration: 0.3, // s
+      fromScale: 0.9, // grows from the bubble's bottom corner (tail side)
+      fromY: 8, // px below its final position
+      easing: "cubic-bezier(0.2, 0.9, 0.25, 1.08)", // slight overshoot
+    },
+    pause: { sameSender: 0.7, senderChange: 1.6 }, // s between two messages
+    hold: 2.5, // s on the full conversation at the end
+  },
 };
 
 // Local system fonts (Apple SF Pro, installed in /Library/Fonts).
