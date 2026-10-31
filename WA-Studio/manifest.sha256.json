@@ -1,0 +1,12 @@
+{
+  "README.md": "0052fda986c968d3daf8767fa3a71ed6ab9af4b90c379e4f4a4168c27b41e8e0",
+  "output/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "references/painting-07.jpg": "84aa0fbc53a4e2ac7ffc8a5619eb49750799016c0547cd6e0ec5d057f306e79a",
+  "references/master.png": "4f78852bb3dabd51ac8799deed808ae5c5fe9e7fc454d68696aa905c8e0f6b0b",
+  "references/painting-09.png": "f8eef69c11890fb8407c707f1ef48703f4ed0f0a98c902975e7b8f38a4301ce0",
+  "instructions/DESIGN_LOCK.md": "1a32350ba9adbd9853a5eba41ca46938164a2a4677f9e6e5de3f81025590c96a",
+  "instructions/PROMPT_CODEX.md": "22b991c48dc8c40871d9137cdeb851acbda195ea8222cecfa24ed0997433e136",
+  "specs/vitreen-design-spec.json": "1c3d08b63615977d0e5d2001a0e535476aea0866fa59ab02098c679167d0b361",
+  "data/artworks.json": "f5e426b49b9bc9b81c6c1982d8dadec69839338b27e77106bbeba5028387ce00",
+  "data/conversations.json": "26b14ff92ed12858c2af407b501b07f3d5ef641404bee3b6f11559cdac0a8d20"
+}

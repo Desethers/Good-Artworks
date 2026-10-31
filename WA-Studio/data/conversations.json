@@ -1,0 +1,211 @@
+[
+  {
+    "id": "master-01",
+    "language": "fr",
+    "messages": [
+      {
+        "type": "incoming_text",
+        "text": "Bonjour, avez-vous des peintures de Sacha Elron disponibles à moins de 10 000 € ?",
+        "time": "11:45"
+      },
+      {
+        "type": "outgoing_text",
+        "text": "Bonjour, oui, plusieurs œuvres sont disponibles. Je vous envoie une sélection.",
+        "time": "11:47",
+        "read": true
+      },
+      {
+        "type": "forwarded_artwork",
+        "artworkId": "sacha-elron-crimson-field",
+        "time": "11:48",
+        "read": true
+      },
+      {
+        "type": "forwarded_artwork",
+        "artworkId": "sacha-elron-sage-interval",
+        "time": "11:48",
+        "read": true
+      },
+      {
+        "type": "incoming_text",
+        "text": "J’aime beaucoup les couleurs. Vous auriez aussi un monochrome noir ?",
+        "time": "12:05"
+      }
+    ]
+  },
+  {
+    "id": "fr-format-entree",
+    "language": "fr",
+    "topic": "Dimensions pour un lieu précis",
+    "messages": [
+      {
+        "type": "incoming_text",
+        "text": "Bonjour, je cherche une toile pour mon entrée, 110 cm de large maximum.",
+        "time": "10:12"
+      },
+      {
+        "type": "outgoing_text",
+        "text": "Bonjour Marie, celle-ci fait 92,3 cm de large.",
+        "time": "10:20",
+        "read": true
+      },
+      {
+        "type": "forwarded_artwork",
+        "artworkId": "vincent-van-gogh-the-bedroom-1787144485976-1",
+        "time": "10:20",
+        "read": true
+      },
+      {
+        "type": "incoming_text",
+        "text": "Parfait. Je peux venir la voir samedi ?",
+        "time": "10:31"
+      }
+    ]
+  },
+  {
+    "id": "fr-budget",
+    "language": "fr",
+    "topic": "Budget",
+    "messages": [
+      {
+        "type": "incoming_text",
+        "text": "Bonjour, auriez-vous une œuvre autour de 20 000 € ?",
+        "time": "16:02"
+      },
+      {
+        "type": "outgoing_text",
+        "text": "Bonjour, oui. Je vous envoie celle qui correspond le mieux.",
+        "time": "16:09",
+        "read": true
+      },
+      {
+        "type": "forwarded_artwork",
+        "artworkId": "gustave-caillebotte-paris-street-rainy-day-1787144491852-2",
+        "time": "16:09",
+        "read": true
+      },
+      {
+        "type": "incoming_text",
+        "text": "Très belle scène, je la garde en tête.",
+        "time": "16:40"
+      }
+    ]
+  },
+  {
+    "id": "fr-retour-galerie",
+    "language": "fr",
+    "topic": "Relance de la galerie",
+    "messages": [
+      {
+        "type": "outgoing_text",
+        "text": "Bonjour Marie, le Munch dont nous avions parlé est de retour à la galerie.",
+        "time": "09:45",
+        "read": true
+      },
+      {
+        "type": "forwarded_artwork",
+        "artworkId": "edvard-munch-the-girl-by-the-window-1787144557023-16",
+        "time": "09:45",
+        "read": true
+      },
+      {
+        "type": "incoming_text",
+        "text": "Merci de penser à moi ! Je passe jeudi.",
+        "time": "11:03"
+      }
+    ]
+  },
+  {
+    "id": "en-anything-new",
+    "language": "en",
+    "topic": "Anything new from Sacha Elron?",
+    "messages": [
+      {
+        "type": "incoming_text",
+        "text": "Anything new from Sacha Elron?",
+        "time": "14:21"
+      },
+      {
+        "type": "outgoing_text",
+        "text": "Yes, two paintings are available right now.",
+        "time": "14:30",
+        "read": true
+      },
+      {
+        "type": "forwarded_artwork",
+        "artworkId": "sacha-elron-crimson-field",
+        "time": "14:30",
+        "read": true
+      },
+      {
+        "type": "forwarded_artwork",
+        "artworkId": "sacha-elron-sage-interval",
+        "time": "14:30",
+        "read": true
+      },
+      {
+        "type": "incoming_text",
+        "text": "The green one is beautiful.",
+        "time": "14:52"
+      }
+    ]
+  },
+  {
+    "id": "en-seascape",
+    "language": "en",
+    "topic": "Seascapes",
+    "messages": [
+      {
+        "type": "incoming_text",
+        "text": "Hello, do you have any seascapes at the moment?",
+        "time": "11:15"
+      },
+      {
+        "type": "outgoing_text",
+        "text": "Hello Marie, yes. This one is available.",
+        "time": "11:22",
+        "read": true
+      },
+      {
+        "type": "forwarded_artwork",
+        "artworkId": "winslow-homer-the-herring-net-1787144552410-15",
+        "time": "11:22",
+        "read": true
+      },
+      {
+        "type": "incoming_text",
+        "text": "Beautiful light. Is it framed?",
+        "time": "11:48"
+      }
+    ]
+  },
+  {
+    "id": "en-price",
+    "language": "en",
+    "topic": "Price of a specific work",
+    "messages": [
+      {
+        "type": "incoming_text",
+        "text": "Hi, what is the price of the Caillebotte?",
+        "time": "18:04"
+      },
+      {
+        "type": "outgoing_text",
+        "text": "Hi Marie, here it is with all the details.",
+        "time": "18:10",
+        "read": true
+      },
+      {
+        "type": "forwarded_artwork",
+        "artworkId": "gustave-caillebotte-paris-street-rainy-day-1787144491852-2",
+        "time": "18:10",
+        "read": true
+      },
+      {
+        "type": "incoming_text",
+        "text": "Thank you, I'll think about it this weekend.",
+        "time": "18:26"
+      }
+    ]
+  }
+]

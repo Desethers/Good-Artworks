@@ -1,0 +1,24 @@
+[
+  {
+    "id": "sacha-evening-field",
+    "artist": "Sacha Elron",
+    "title": "Evening Field",
+    "year": 2023,
+    "medium": "Acrylique",
+    "dimensions": "180 × 180 cm",
+    "priceEUR": 10000,
+    "image": "references/painting-07.jpg",
+    "verified": "user-supplied reference and Figma mockup; not verified in Sanity"
+  },
+  {
+    "id": "sacha-untitled-horizon",
+    "artist": "Sacha Elron",
+    "title": "Untitled (Horizon)",
+    "year": 2024,
+    "medium": "Acrylique",
+    "dimensions": "140 × 140 cm",
+    "priceEUR": 8000,
+    "image": "references/painting-09.png",
+    "verified": "user-supplied reference and Figma mockup; not verified in Sanity"
+  }
+]

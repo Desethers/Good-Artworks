@@ -1,0 +1,23 @@
+{
+  "name": "wa-studio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render": "tsx scripts/render.jsx",
+    "render:all": "tsx scripts/render.jsx --all",
+    "render:master": "tsx scripts/render.jsx --conversation master-01 --output output/master-render.png",
+    "compare": "node scripts/compare.mjs",
+    "sync:sanity": "node scripts/sync-sanity.mjs",
+    "qa": "npm run render:master && npm run compare"
+  },
+  "dependencies": {
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "pixelmatch": "8.0.0",
+    "playwright": "1.64.1",
+    "pngjs": "7.0.0",
+    "tsx": "4.23.15"
+  }
+}
