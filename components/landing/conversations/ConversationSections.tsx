@@ -1896,7 +1896,7 @@ export default function ConversationSections({
       {/* One section holds the rows, alternating scene left and right. */}
       <section className="bg-white px-4 pb-16 pt-0 md:px-6 md:pb-20 md:pt-4">
         <Heading eyebrow={copy.block.eyebrow} title={copy.block.title} sub={copy.block.sub} />
-        <div className="mt-14 flex flex-col gap-20 md:mt-28 md:gap-40">
+        <div className="mt-14 flex flex-col gap-24 md:mt-28 md:gap-40">
           <EmailSection c={copy.email} lang={copy === CONVERSATION_SECTIONS_FR ? "fr" : "en"} />
           <WhatsAppSection c={copy.whatsapp} />
         </div>

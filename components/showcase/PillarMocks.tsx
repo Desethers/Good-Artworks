@@ -581,6 +581,33 @@ const ARTWORK_ROWS: {
     bg: "linear-gradient(135deg,#C98A2E 0%,#7A4A12 100%)",
     image: "/artworks/painting-04.jpg",
   },
+  {
+    title: "Blue hour",
+    year: "2022",
+    artist: "Sacha Elron",
+    price: "9 500 €",
+    status: "sold",
+    bg: "linear-gradient(135deg,#1B2A4A 0%,#0F1A33 100%)",
+    image: "/artworks/painting-02.png",
+  },
+  {
+    title: "Low tide",
+    year: "2021",
+    artist: "Mara Velt",
+    price: "6 200 €",
+    status: "available",
+    bg: "linear-gradient(135deg,#C8D2EE 0%,#9FAEDB 100%)",
+    image: "/artworks/painting-06.png",
+  },
+  {
+    title: "Study in ochre",
+    year: "2024",
+    artist: "Lina Ores",
+    price: "3 900 €",
+    status: "available",
+    bg: "linear-gradient(135deg,#D4A574 0%,#A07A4A 100%)",
+    image: "/artworks/painting-10.jpg",
+  },
 ];
 
 const STATUS_PILLS = [
@@ -829,7 +856,7 @@ export function ArchiveMock({
         </div>
 
         {/* Works */}
-        <div className="min-h-0 flex-1 overflow-y-auto">
+        <div className={`min-h-0 flex-1 ${interactive ? "overflow-y-auto" : "overflow-hidden"}`}>
           {visibleArtworks.length === 0 ? (
             <div className="flex h-full flex-col items-center justify-center gap-1.5 text-center">
               <p className="text-[12px] text-zinc-400">No artwork matches the filters.</p>

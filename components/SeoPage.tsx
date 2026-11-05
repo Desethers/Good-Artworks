@@ -130,7 +130,11 @@ function Visual({ visual, lang }: { visual: SeoVisual; lang: Lang }) {
     );
   }
   return (
-    <div className="relative h-[420px] w-full overflow-hidden rounded-[12px] border border-[#E8E8E6] bg-[#F5F5F3] md:h-[540px]">
+    <div
+      className={`relative w-full overflow-hidden rounded-[12px] border border-[#E8E8E6] bg-[#F5F5F3] ${
+        visual.kind === "artworkList" ? "h-[480px] md:h-[600px]" : "h-[420px] md:h-[540px]"
+      }`}
+    >
       {visual.kind === "artworkList" && <ArchiveMock interactive={false} />}
       {visual.kind === "artworkForm" && (
         <div className="flex h-full w-full justify-center p-6 md:p-10">
@@ -350,7 +354,9 @@ export default function SeoPage({ id, lang }: { id: SeoPageId; lang: Lang }) {
       <PageSchema c={c} lang={lang} />
       <Nav />
       <main className="bg-white">
-        <section className="px-4 pb-12 pt-32 text-center md:px-6 md:pb-16 md:pt-40">
+        <section
+          className={`px-4 pt-32 text-center md:px-6 md:pt-40 ${c.visual ? "pb-16 md:pb-24" : "pb-12 md:pb-16"}`}
+        >
           <div className="mx-auto max-w-3xl">
             <p className={EYEBROW}>{c.eyebrow}</p>
             {/* Without a line under it, the title keeps the same room before the next section. */}
@@ -387,7 +393,7 @@ export default function SeoPage({ id, lang }: { id: SeoPageId; lang: Lang }) {
                 {c.stepsTitle}
               </h2>
             ) : null}
-            <ol className={`${CONTAINER} flex flex-col gap-16 md:gap-24`}>
+            <ol className={`${CONTAINER} flex flex-col gap-24 md:gap-40`}>
               {c.steps.map((step, i) => (
                 <li
                   key={step.title}
