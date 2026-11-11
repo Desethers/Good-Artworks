@@ -19,6 +19,15 @@ const nextConfig: NextConfig = {
      * fait rediriger une seconde fois — une chaîne que Google suit mais qui
      * dilue le signal. */
     return [
+      /* Vitreen est devenu Good Artworks (2026-11). L'ancien domaine renvoie
+       * chaque chemin vers goodart.works en 301, pour transférer le
+       * référencement. En tête de liste : l'hôte passe avant tout le reste. */
+      ...["vitreen.art", "www.vitreen.art"].map((value) => ({
+        source: "/:path*",
+        has: [{ type: "host" as const, value }],
+        destination: "https://goodart.works/:path*",
+        statusCode: 301 as const,
+      })),
       /* Studio a quitté Good Artworks : le site vit désormais sur son propre domaine.
        * La redirection préserve la structure de chemin, donc /studio/fr arrive
        * sur forart.world/fr et les anciennes URL d'images retombent sur leurs
