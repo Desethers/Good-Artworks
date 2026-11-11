@@ -2,18 +2,18 @@ import { Resend } from "resend";
 import { NextResponse } from "next/server";
 
 /*
- * Sending. Until vitreen.art is verified at resend.com/domains, Resend only
+ * Sending. Until goodart.works is verified at resend.com/domains, Resend only
  * delivers from onboarding@resend.dev, and only to the e-mail of the Resend
- * account itself (raphael.vitreen@gmail.com).
+ * account itself (goodartvvorks@gmail.com).
  * Once the domain is verified, set CONTACT_FROM_EMAIL (in Vercel too), e.g.
- * "Good Artworks <contact@vitreen.art>": messages are then sent from that address to
- * contact@vitreen.art, which forwards to the inbox. CONTACT_TO_EMAIL overrides it.
+ * "Good Artworks <contact@goodart.works>": messages are then sent from that address to
+ * contact@goodart.works, which ImprovMX forwards to the inbox. CONTACT_TO_EMAIL overrides it.
  */
 const CONTACT_FROM =
   process.env.CONTACT_FROM_EMAIL || "Good Artworks Contact <onboarding@resend.dev>";
 const CONTACT_TO =
   process.env.CONTACT_TO_EMAIL ||
-  (process.env.CONTACT_FROM_EMAIL ? "contact@vitreen.art" : "raphael.vitreen@gmail.com");
+  (process.env.CONTACT_FROM_EMAIL ? "contact@goodart.works" : "goodartvvorks@gmail.com");
 
 export async function POST(request: Request) {
   const resend = new Resend(process.env.RESEND_API_KEY);
