@@ -29,6 +29,7 @@
   --font-serif: var(--font-inter), "Inter", system-ui, sans-serif;
   --font-display: var(--font-inter), "Inter", system-ui, sans-serif;
   --font-mono: var(--font-inter), "Inter", system-ui, sans-serif;
+  --font-wordmark: var(--font-noto-sans), "Noto Sans", system-ui, sans-serif;
 
   --radius: 4px;
   --radius-xs: 4px;

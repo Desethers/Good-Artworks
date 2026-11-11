@@ -1,4 +1,4 @@
-import { Inter } from "next/font/google";
+import { Inter, Noto_Sans } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { LangProvider } from "@/components/LangProvider";
 import type { Lang } from "@/lib/lang";
@@ -7,6 +7,14 @@ import { HTML_LANG, SITE, SITE_NAME, SITE_URL } from "@/lib/seo";
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
+  display: "swap",
+});
+
+/* Only the Good Artworks wordmark in the nav uses it: SemiBold for "Good Art", Regular for "works". */
+const notoSans = Noto_Sans({
+  subsets: ["latin"],
+  weight: ["400", "600"],
+  variable: "--font-noto-sans",
   display: "swap",
 });
 
@@ -55,7 +63,7 @@ export default function SiteLayout({ lang, children }: { lang: Lang; children: R
   };
 
   return (
-    <html lang={HTML_LANG[lang]} className={inter.variable}>
+    <html lang={HTML_LANG[lang]} className={`${inter.variable} ${notoSans.variable}`}>
       <head>
         <link rel="preload" as="image" href="/allen14.jpg-preview3.jpg" fetchPriority="high" />
         {/* Marque le document quand le site est embarqué dans une iframe

@@ -119,17 +119,14 @@ export default function LandingNavFr() {
   return (
     <>
       <header
-        className={`fixed left-0 right-0 top-0 z-50 border-b-[0.5px] bg-white px-4 py-2 transition-[border-color] duration-200 md:px-6 ${
+        className={`fixed left-0 right-0 top-0 z-50 border-b-[0.5px] bg-white px-4 pb-2 pt-3 transition-[border-color] duration-200 md:px-6 ${
           scrolled ? "border-[#E8E8E6]" : "border-transparent"
         }`}
       >
         <div className="relative mx-auto flex h-9 w-full max-w-7xl items-center justify-between">
-          <a
-            href="/fr"
-            className="flex items-center gap-2 font-display text-base tracking-tight text-[#111110] md:text-lg"
-          >
-            <img src="/favicon.png" alt="" className="h-5 w-5 rounded-[5px]" />
-            Good Artworks
+          <a href="/fr" className="font-wordmark text-xl tracking-tight text-[#111110] md:text-2xl">
+            <span className="font-semibold">Good Art</span>
+            <span className="font-normal">works</span>
           </a>
 
           <nav className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-7 md:flex">
