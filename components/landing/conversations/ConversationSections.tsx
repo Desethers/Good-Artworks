@@ -533,7 +533,8 @@ const pop = {
   exit: { opacity: 0 },
 };
 
-function Heading({
+/** Centered kicker, title and grey subtitle: the heading every home section uses. */
+export function Heading({
   eyebrow,
   title,
   sub,

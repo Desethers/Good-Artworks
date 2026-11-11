@@ -3,8 +3,10 @@
 import { Button } from "@/components/ui/Button";
 import { openContact } from "@/components/landing/LandingNav";
 import LandingLanguageSwitch from "@/components/landing/LandingLanguageSwitch";
+import EmailCta from "@/components/landing/EmailCta";
 import {
   CONVERSATION_SECTIONS_FR,
+  Heading,
   StatementSection,
 } from "@/components/landing/conversations/ConversationSections";
 
@@ -43,6 +45,19 @@ export default function LandingCtaFr() {
   return (
     <div className={`flex flex-col bg-[#111110] ${SHOW_STATEMENT ? "min-h-[100svh]" : ""}`}>
       {/* The closing statement opens the footer, with the final action under it. */}
+      {/* Closing call to action: the home's own heading over the hero's email field. */}
+      <section className="bg-white px-4 py-24 md:px-6 md:py-32">
+        <Heading
+          eyebrow="Démo"
+          title="Voyez-le sur votre propre inventaire."
+          sub="Trente minutes, sur une vraie demande de collectionneur."
+        />
+        <div className="mt-10 flex flex-col items-center gap-4 md:mt-12">
+          <EmailCta lang="fr" />
+          <p className="text-[13px] text-[#ADADAA]">Rien à préparer. Gratuit et sans engagement.</p>
+        </div>
+      </section>
+
       {SHOW_STATEMENT ? (
         <StatementSection
           c={CONVERSATION_SECTIONS_FR.statement}

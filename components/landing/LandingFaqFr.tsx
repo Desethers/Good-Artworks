@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { CONTAINER, EYEBROW, H2, SECTION } from "@/components/landing/styles";
+import { EYEBROW, H2, SECTION } from "@/components/landing/styles";
 
 const ease = [0.16, 1, 0.3, 1] as const;
 
@@ -75,7 +75,7 @@ function Item({ q, a }: { q: string; a: string }) {
 export default function LandingFaqFr() {
   return (
     <section id="faq" className={`${SECTION} bg-white`}>
-      <div className={CONTAINER}>
+      <div className="mx-auto w-full max-w-4xl">
         <p className={EYEBROW}>FAQ</p>
         <h2 className={`${H2} mt-5 max-w-2xl`}>Questions.</h2>
         <div className="mt-8 md:mt-10">

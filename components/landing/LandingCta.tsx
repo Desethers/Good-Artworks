@@ -3,8 +3,10 @@
 import { Button } from "@/components/ui/Button";
 import { openContact } from "@/components/landing/LandingNav";
 import LandingLanguageSwitch from "@/components/landing/LandingLanguageSwitch";
+import EmailCta from "@/components/landing/EmailCta";
 import {
   CONVERSATION_SECTIONS_EN,
+  Heading,
   StatementSection,
 } from "@/components/landing/conversations/ConversationSections";
 
@@ -44,6 +46,19 @@ export default function LandingCta() {
     <div className={`flex flex-col bg-[#111110] ${SHOW_STATEMENT ? "min-h-[100svh]" : ""}`}>
       {/* Same title+subtitle scale as CtaBand.tsx on main: both 30/44, leading-[1.15], tracking-[-0.03em]. */}
       {/* The closing statement opens the footer, with the final action under it. */}
+      {/* Closing call to action: the home's own heading over the hero's email field. */}
+      <section className="bg-white px-4 py-24 md:px-6 md:py-32">
+        <Heading
+          eyebrow="Demo"
+          title="See it on your own inventory."
+          sub="Thirty minutes, on a real collector request."
+        />
+        <div className="mt-10 flex flex-col items-center gap-4 md:mt-12">
+          <EmailCta lang="en" />
+          <p className="text-[13px] text-[#ADADAA]">Nothing to prepare. Free, no commitment.</p>
+        </div>
+      </section>
+
       {SHOW_STATEMENT ? (
         <StatementSection
           c={CONVERSATION_SECTIONS_EN.statement}
