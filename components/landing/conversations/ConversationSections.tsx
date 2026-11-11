@@ -1252,6 +1252,127 @@ export function MemoryFeed({ c }: { c: ConversationSectionsCopy["feed"] }) {
   );
 }
 
+function FeedSection({ c }: { c: ConversationSectionsCopy["feed"] }) {
+  const reduce = useReducedMotion();
+  const ref = useRef<HTMLDivElement>(null);
+  // Starts as soon as the list comes into view, not once it is mostly on screen.
+  const inView = useInView(ref, { amount: 0.1 });
+  const total = c.events.length;
+  // One notification first; each new one pops in on top and links to the
+  // thread below, until the history is full. Then it starts over.
+  const [n, setN] = useState(1);
+  // Each loop is its own list: the whole history fades out at once, then
+  // the next loop starts from a single notification (no overlapping exits).
+  const [cycle, setCycle] = useState(0);
+
+  useEffect(() => {
+    if (reduce) {
+      setN(total);
+      return;
+    }
+    if (!inView) return;
+    const t = window.setTimeout(
+      () => {
+        if (n >= total) {
+          setCycle((k) => k + 1);
+          setN(1);
+        } else {
+          setN(n + 1);
+        }
+      },
+      n >= total ? 4500 : 1300
+    );
+    return () => window.clearTimeout(t);
+  }, [n, inView, reduce, total]);
+
+  const shown = c.events.slice(0, n).reverse();
+  const isFrench = c.eyebrow === "Se souvenir";
+
+  // The panel's height follows the list: it grows as notifications arrive.
+  const listRef = useRef<HTMLDivElement>(null);
+  const [listH, setListH] = useState<number | "auto">("auto");
+  useEffect(() => {
+    const el = listRef.current;
+    if (!el) return;
+    const ro = new ResizeObserver(() => setListH(el.offsetHeight));
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
+  return (
+    <section id="memory" className="scroll-mt-16 bg-white px-4 py-16 md:px-6 md:py-20">
+      <Heading eyebrow={c.eyebrow} title={c.title} sub={c.sub} />
+      <p className="mx-auto mt-6 max-w-2xl text-center font-display text-[16px] leading-[1.5] tracking-[-0.015em] text-[#6B6A67] md:text-[18px]">
+        {c.line}
+      </p>
+      <motion.div
+        ref={ref}
+        className="relative mx-auto mt-14 max-w-4xl overflow-hidden bg-white md:mt-20"
+        animate={{ height: listH }}
+        transition={{ type: "spring", stiffness: 260, damping: 32 }}
+      >
+        <div ref={listRef} className="py-2">
+          <p className="mb-4 text-[13px] font-medium text-[#71717A] md:pl-2">
+            {isFrench ? "Activité récente" : "Recent activity"}
+          </p>
+          <AnimatePresence mode="wait" initial={false}>
+            <motion.ul
+              key={cycle}
+              className="flex flex-col"
+              exit={{ opacity: 0, transition: { duration: 0.35 } }}
+            >
+              <AnimatePresence initial={cycle > 0}>
+                {shown.map((e, index) => (
+                  <motion.li
+                    key={`${e.who}-${e.title}`}
+                    layout="position"
+                    initial={reduce ? false : { opacity: 0, y: -14, scale: 0.92 }}
+                    animate={{ opacity: 1, y: 0, scale: 1 }}
+                    exit={reduce ? undefined : { opacity: 0, transition: { duration: 0.2 } }}
+                    transition={{
+                      layout: { type: "spring", stiffness: 260, damping: 30 },
+                      default: { type: "spring", stiffness: 380, damping: 24 },
+                    }}
+                    style={{ transformOrigin: "50% 0%" }}
+                    className="relative"
+                  >
+                    {index > 0 ? (
+                      <>
+                        {/* The gap between two exchanges, crossed by the thread. */}
+                        <div className="relative h-3">
+                          <ThreadPiece className="top-0 h-full" />
+                        </div>
+                      </>
+                    ) : null}
+                    {index === 0 || shown[index - 1]?.when !== e.when ? (
+                      <div className="relative pb-2.5">
+                        {index > 0 ? <ThreadPiece className="top-0 h-full" /> : null}
+                        <p className="pl-10 text-[11px] font-medium text-[#A1A1AA] md:pl-12 md:text-[12px]">
+                          {feedDayLabel(e.when, isFrench)}
+                        </p>
+                      </div>
+                    ) : null}
+                    <FeedRow
+                      e={e}
+                      kinds={c.kinds}
+                      isFrench={isFrench}
+                      answered={
+                        e.kind === 0 &&
+                        shown.some((other) => other.kind === 1 && other.who === e.who)
+                      }
+                      linked={index < shown.length - 1}
+                      up={index > 0}
+                    />
+                  </motion.li>
+                ))}
+              </AnimatePresence>
+            </motion.ul>
+          </AnimatePresence>
+        </div>
+      </motion.div>
+    </section>
+  );
+}
+
 /* ─── Statement: one inventory, one CRM, every channel ──────────────────── */
 
 const CHANNELS = [
@@ -1910,6 +2031,7 @@ export default function ConversationSections({
           <WhatsAppSection c={copy.whatsapp} />
         </div>
       </section>
+      <FeedSection c={copy.feed} />
       <MigrationSection c={copy.migration} />
       <SecuritySection c={copy.migration.security} />
       {afterWhatsApp}
