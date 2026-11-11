@@ -8,7 +8,7 @@ const seo = {
   path: "/pricing",
   title: "Pricing",
   description:
-    "A clear setup price and monthly partnership for a Vitreen system built around your gallery.",
+    "A clear setup price and monthly partnership for a Good Artworks system built around your gallery.",
 } as const;
 
 export const metadata: Metadata = pageMetadata(seo);

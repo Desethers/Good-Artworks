@@ -6,7 +6,7 @@ import { pageMetadata } from "@/lib/seo";
  * Content of the secondary pages (product, solutions, about), one entry per
  * page and per language. Every page uses the same template (SeoPage): a hero
  * that carries the page's search phrase, one product visual, three or four
- * blocks, then the shared CTA and footer. Only what Vitreen does today.
+ * blocks, then the shared CTA and footer. Only what Good Artworks does today.
  */
 
 export type SeoPageId =
@@ -153,10 +153,10 @@ export const SEO_PAGES: Record<SeoPageId, Record<Lang, SeoPageCopy>> = {
         src: "/videos/gmail-card-click.mp4",
         poster: "/videos/gmail-card-click.jpg",
         label:
-          "A collector asks about a work in Gmail; the gallery finds it in Vitreen and inserts its card into the reply.",
+          "A collector asks about a work in Gmail; the gallery finds it in Good Artworks and inserts its card into the reply.",
       },
       definition:
-        "Vitreen puts your artwork records inside Gmail and WhatsApp. It prepares replies to collectors from your own inventory, your team reviews and sends them, and Vitreen remembers who received what.",
+        "Good Artworks puts your artwork records inside Gmail and WhatsApp. It prepares replies to collectors from your own inventory, your team reviews and sends them, and Good Artworks remembers who received what.",
       featureList: [
         "Artwork records in Gmail",
         "Artwork PDFs on WhatsApp",
@@ -188,27 +188,27 @@ export const SEO_PAGES: Record<SeoPageId, Record<Lang, SeoPageCopy>> = {
         items: [
           {
             q: "Do we have to leave Gmail or WhatsApp?",
-            a: "No. Vitreen works inside them: a side panel in Gmail, a number you message on WhatsApp. Your conversations stay where they are.",
+            a: "No. Good Artworks works inside them: a side panel in Gmail, a number you message on WhatsApp. Your conversations stay where they are.",
           },
           {
-            q: "What does Vitreen keep from our conversations?",
+            q: "What does Good Artworks keep from our conversations?",
             a: "The Gmail threads you open with the side panel and the replies that follow, and what you prepare with the WhatsApp assistant. Your own WhatsApp chats with collectors are not captured yet.",
           },
           {
             q: "Who sends the reply?",
-            a: "Always someone from your team. Vitreen prepares it from your artwork records; nothing leaves without your click.",
+            a: "Always someone from your team. Good Artworks prepares it from your artwork records; nothing leaves without your click.",
           },
           {
             q: "How do galleries answer collector inquiries faster?",
-            a: "By answering from the artwork record instead of looking for it. In Gmail or on WhatsApp, Vitreen finds the work, its image, its price and its availability, and prepares the reply. Your team reviews it and sends it.",
+            a: "By answering from the artwork record instead of looking for it. In Gmail or on WhatsApp, Good Artworks finds the work, its image, its price and its availability, and prepares the reply. Your team reviews it and sends it.",
           },
           {
             q: "Does it work with Artlogic?",
-            a: "Yes, alongside it. Vitreen is set up from your Artlogic exports, or from spreadsheets and folders, and puts that information into your conversations.",
+            a: "Yes, alongside it. Good Artworks is set up from your Artlogic exports, or from spreadsheets and folders, and puts that information into your conversations.",
           },
           {
             q: "Can I send a PDF of artworks on WhatsApp?",
-            a: "Yes. Pick works from your phone and choose which details to show. Vitreen builds a clean PDF that you forward to the collector yourself.",
+            a: "Yes. Pick works from your phone and choose which details to show. Good Artworks builds a clean PDF that you forward to the collector yourself.",
           },
           {
             q: "How much does it cost?",
@@ -233,10 +233,10 @@ export const SEO_PAGES: Record<SeoPageId, Record<Lang, SeoPageCopy>> = {
         src: "/videos/gmail-card-click.mp4",
         poster: "/videos/gmail-card-click.jpg",
         label:
-          "Un collectionneur demande une œuvre dans Gmail ; la galerie la retrouve dans Vitreen et insère sa fiche dans la réponse.",
+          "Un collectionneur demande une œuvre dans Gmail ; la galerie la retrouve dans Good Artworks et insère sa fiche dans la réponse.",
       },
       definition:
-        "Vitreen met vos fiches d’œuvres dans Gmail et WhatsApp. Il prépare les réponses aux collectionneurs depuis votre propre inventaire, votre équipe les relit et les envoie, et Vitreen se souvient de qui a reçu quoi.",
+        "Good Artworks met vos fiches d’œuvres dans Gmail et WhatsApp. Il prépare les réponses aux collectionneurs depuis votre propre inventaire, votre équipe les relit et les envoie, et Good Artworks se souvient de qui a reçu quoi.",
       featureList: [
         "Fiches d’œuvres dans Gmail",
         "PDF d’œuvres sur WhatsApp",
@@ -268,27 +268,27 @@ export const SEO_PAGES: Record<SeoPageId, Record<Lang, SeoPageCopy>> = {
         items: [
           {
             q: "Faut-il quitter Gmail ou WhatsApp ?",
-            a: "Non. Vitreen travaille à l’intérieur : un panneau latéral dans Gmail, un numéro auquel vous écrivez sur WhatsApp. Vos conversations restent où elles sont.",
+            a: "Non. Good Artworks travaille à l’intérieur : un panneau latéral dans Gmail, un numéro auquel vous écrivez sur WhatsApp. Vos conversations restent où elles sont.",
           },
           {
-            q: "Que garde Vitreen de nos conversations ?",
+            q: "Que garde Good Artworks de nos conversations ?",
             a: "Les fils Gmail ouverts avec le panneau latéral et les réponses qui suivent, et ce que vous préparez avec l’assistant WhatsApp. Vos propres échanges WhatsApp avec les collectionneurs ne sont pas encore captés.",
           },
           {
             q: "Qui envoie la réponse ?",
-            a: "Toujours quelqu’un de votre équipe. Vitreen la prépare depuis vos fiches d’œuvres ; rien ne part sans votre clic.",
+            a: "Toujours quelqu’un de votre équipe. Good Artworks la prépare depuis vos fiches d’œuvres ; rien ne part sans votre clic.",
           },
           {
             q: "Comment les galeries répondent-elles plus vite aux collectionneurs ?",
-            a: "En répondant depuis la fiche de l’œuvre au lieu de la chercher. Dans Gmail ou sur WhatsApp, Vitreen retrouve l’œuvre, son image, son prix et sa disponibilité, et prépare la réponse. Votre équipe la relit et l’envoie.",
+            a: "En répondant depuis la fiche de l’œuvre au lieu de la chercher. Dans Gmail ou sur WhatsApp, Good Artworks retrouve l’œuvre, son image, son prix et sa disponibilité, et prépare la réponse. Votre équipe la relit et l’envoie.",
           },
           {
             q: "Est-ce que ça fonctionne avec Artlogic ?",
-            a: "Oui, à côté. Vitreen s’installe à partir de vos exports Artlogic, ou de tableurs et de dossiers, et met ces informations dans vos conversations.",
+            a: "Oui, à côté. Good Artworks s’installe à partir de vos exports Artlogic, ou de tableurs et de dossiers, et met ces informations dans vos conversations.",
           },
           {
             q: "Peut-on envoyer un PDF d’œuvres sur WhatsApp ?",
-            a: "Oui. Choisissez des œuvres depuis votre téléphone et les détails à montrer. Vitreen prépare un PDF propre, que vous transférez vous-même au collectionneur.",
+            a: "Oui. Choisissez des œuvres depuis votre téléphone et les détails à montrer. Good Artworks prépare un PDF propre, que vous transférez vous-même au collectionneur.",
           },
           {
             q: "Combien ça coûte ?",
@@ -321,7 +321,7 @@ export const SEO_PAGES: Record<SeoPageId, Record<Lang, SeoPageCopy>> = {
         },
         {
           title: "Know who to follow up",
-          body: "Inquiries still waiting, reminders you set, collectors too long without news: Vitreen brings them back to you.",
+          body: "Inquiries still waiting, reminders you set, collectors too long without news: Good Artworks brings them back to you.",
           visual: "followUpKinds",
         },
         {
@@ -351,7 +351,7 @@ export const SEO_PAGES: Record<SeoPageId, Record<Lang, SeoPageCopy>> = {
         },
         {
           title: "Sachez qui relancer",
-          body: "Demandes sans réponse, rappels que vous avez fixés, collectionneurs sans nouvelles : Vitreen vous les remonte.",
+          body: "Demandes sans réponse, rappels que vous avez fixés, collectionneurs sans nouvelles : Good Artworks vous les remonte.",
           visual: "followUpKinds",
         },
         {
@@ -718,34 +718,34 @@ export const SEO_PAGES: Record<SeoPageId, Record<Lang, SeoPageCopy>> = {
   about: {
     en: {
       meta: {
-        title: "About Vitreen",
+        title: "About Good Artworks",
         description:
-          "Vitreen keeps artwork information moving and collector conversations in memory, because in art and design, the relationship is the business.",
+          "Good Artworks keeps artwork information moving and collector conversations in memory, because in art and design, the relationship is the business.",
       },
       eyebrow: "About",
       title: "In art and design, the relationship is the business.",
       prose: [
         "Galleries have always been built on artists, judgment and relationships. That should not change.",
         "But the work behind a gallery has become heavier. Even a small team now has to track its works, prepare selections and answer collectors across several channels.",
-        "Vitreen started from a simple idea: an artwork’s information is entered once, then used everywhere, in Gmail, on WhatsApp, in a PDF. And every exchange with a collector is remembered.",
-        "Technology replaces neither judgment nor relationships. It supports them: Vitreen prepares, your team reviews and sends.",
-        "Raphaël, founder of Vitreen",
+        "Good Artworks started from a simple idea: an artwork’s information is entered once, then used everywhere, in Gmail, on WhatsApp, in a PDF. And every exchange with a collector is remembered.",
+        "Technology replaces neither judgment nor relationships. It supports them: Good Artworks prepares, your team reviews and sends.",
+        "Raphaël, founder of Good Artworks",
       ],
     },
     fr: {
       meta: {
-        title: "À propos de Vitreen",
+        title: "À propos de Good Artworks",
         description:
-          "Vitreen garde l’information des œuvres en mouvement et les conversations avec les collectionneurs en mémoire, parce que dans l’art et le design, la relation est le business.",
+          "Good Artworks garde l’information des œuvres en mouvement et les conversations avec les collectionneurs en mémoire, parce que dans l’art et le design, la relation est le business.",
       },
       eyebrow: "À propos",
       title: "Dans l’art et le design, la relation est le business.",
       prose: [
         "Les galeries se sont toujours construites sur des artistes, un regard et des relations. Ça ne doit pas changer.",
         "Mais le travail derrière une galerie est devenu plus lourd. Même une petite équipe doit suivre ses œuvres, préparer des sélections et répondre aux collectionneurs sur plusieurs canaux.",
-        "Vitreen est né d’une idée simple : l’information d’une œuvre se saisit une fois, puis sert partout, dans Gmail, sur WhatsApp, dans un PDF. Et chaque échange avec un collectionneur reste en mémoire.",
-        "La technologie ne remplace ni le regard ni la relation. Elle les soutient : Vitreen prépare, votre équipe relit et envoie.",
-        "Raphaël, fondateur de Vitreen",
+        "Good Artworks est né d’une idée simple : l’information d’une œuvre se saisit une fois, puis sert partout, dans Gmail, sur WhatsApp, dans un PDF. Et chaque échange avec un collectionneur reste en mémoire.",
+        "La technologie ne remplace ni le regard ni la relation. Elle les soutient : Good Artworks prépare, votre équipe relit et envoie.",
+        "Raphaël, fondateur de Good Artworks",
       ],
     },
   },

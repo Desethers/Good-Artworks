@@ -11,9 +11,9 @@ import { WhatsAppShareWorksMock } from "@/components/shared/ArtworkAddInMocks";
 import { WA, WaBubble, type WaMessage } from "@/components/whatsapp/WaChat";
 
 /*
- * A home in the layout of glideapps.com, told with Vitreen's product: a hero
+ * A home in the layout of glideapps.com, told with Good Artworks's product: a hero
  * with an ask box over the real product, the channels it works with, the loop
- * in tabs, three ways to sell, then trust on a dark band. Only what Vitreen
+ * in tabs, three ways to sell, then trust on a dark band. Only what Good Artworks
  * does today; no client logos or testimonials until there are real ones.
  */
 
@@ -66,7 +66,7 @@ function HeroArtworkCard() {
       transition={{ duration: 0.75, ease, delay: 0.35 }}
     >
       <div className="flex items-center justify-between border-b border-[#E8E8E6] px-4 py-3">
-        <span className="text-[12px] font-medium text-[#111110]">Vitreen inventory</span>
+        <span className="text-[12px] font-medium text-[#111110]">Good Artworks inventory</span>
         <span className="flex items-center gap-1.5 text-[11px] text-emerald-700">
           <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" /> Available
         </span>
@@ -104,7 +104,7 @@ function HeroConnectionScene() {
           <GmailNotification delay={0.55} name="Marie Beaumont">
             Is Evening field still available? Could you remind me of its dimensions?
           </GmailNotification>
-          <GmailNotification delay={1.6} name="Vitreen add-on">
+          <GmailNotification delay={1.6} name="Good Artworks add-on">
             Evening field found in your inventory · ready to insert in the draft.
           </GmailNotification>
         </div>
@@ -118,7 +118,7 @@ function HeroConnectionScene() {
 
         <div>
           <p className="mb-3 px-1 text-[12px] font-medium text-[#ADADAA]">
-            You ask Vitreen on WhatsApp
+            You ask Good Artworks on WhatsApp
           </p>
           <div className="h-[360px] w-full">
             <MiniChat messages={ASK_THREAD} />
@@ -486,8 +486,8 @@ export function GlideHero({
 
         <p className="hero-soft hero-d-2 mt-6 max-w-2xl text-balance text-[16px] leading-[1.55] text-[#6B6A67] md:mt-9 md:text-[19px] md:leading-[1.6]">
           {fr
-            ? "Vitreen connecte votre inventaire à Gmail et WhatsApp."
-            : "Vitreen connects your inventory to Gmail and WhatsApp."}
+            ? "Good Artworks connecte votre inventaire à Gmail et WhatsApp."
+            : "Good Artworks connects your inventory to Gmail and WhatsApp."}
         </p>
 
         <div className="hero-soft hero-d-3 mt-10 flex w-full justify-center md:mt-12">
@@ -615,7 +615,7 @@ function SourceVisual() {
   );
 }
 
-/** The inventory result Vitreen can safely return for a precise question. */
+/** The inventory result Good Artworks can safely return for a precise question. */
 function FindVisual() {
   const works = [
     {
@@ -697,8 +697,8 @@ const TABS = [
     visual: <SourceVisual />,
   },
   {
-    label: "Vitreen inventory",
-    caption: "Vitreen turns them into one clean inventory of works, prices and availability.",
+    label: "Good Artworks inventory",
+    caption: "Good Artworks turns them into one clean inventory of works, prices and availability.",
     visual: <FindVisual />,
   },
   {
@@ -810,7 +810,7 @@ function SellCards() {
   const cards = [
     {
       lead: "In Gmail.",
-      body: "Search a work from the Vitreen panel and drop its card into the reply you are writing.",
+      body: "Search a work from the Good Artworks panel and drop its card into the reply you are writing.",
       visual: (
         <div className="pointer-events-none relative h-full w-full">
           <IntegrationsFrame />
@@ -845,8 +845,8 @@ function SellCards() {
           <span className={H2_GREY}>WhatsApp, email and the collector record.</span>
         </h2>
         <p className={`${BODY} mt-6 max-w-xl`}>
-          You keep your inbox and your phone. Vitreen brings the work into the conversation and
-          keeps track of who received what.
+          You keep your inbox and your phone. Good Artworks brings the work into the conversation
+          and keeps track of who received what.
         </p>
 
         <div className="mt-14 grid gap-6 md:grid-cols-3">
@@ -870,11 +870,14 @@ function SellCards() {
 
 function Trust() {
   const items = [
-    { k: "You send, always", v: "Vitreen prepares. Nothing reaches a collector without a person." },
+    {
+      k: "You send, always",
+      v: "Good Artworks prepares. Nothing reaches a collector without a person.",
+    },
     { k: "Answers from your records", v: "Prices and availability come only from your inventory." },
     {
       k: "Your usual WhatsApp, untouched",
-      v: "Vitreen only sees what is written to its own numbers.",
+      v: "Good Artworks only sees what is written to its own numbers.",
     },
     { k: "One gallery, one instance", v: "Your data is never mixed with another gallery’s." },
   ];
@@ -890,7 +893,7 @@ function Trust() {
           </h2>
           <p className="mt-6 max-w-md text-[16px] leading-[1.6] text-[#ADADAA] md:text-[17px]">
             The conversations between a gallery and its collectors are the most sensitive thing it
-            has. Vitreen treats them that way.
+            has. Good Artworks treats them that way.
           </p>
           <Button size="lg" variant="inverse" onClick={openContact} className="mt-8">
             Book a demo

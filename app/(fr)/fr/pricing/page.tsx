@@ -8,7 +8,7 @@ const seo = {
   path: "/pricing",
   title: "Tarifs",
   description:
-    "Un prix d’installation clair et un partenariat mensuel pour un système Vitreen construit autour de votre galerie.",
+    "Un prix d’installation clair et un partenariat mensuel pour un système Good Artworks construit autour de votre galerie.",
 } as const;
 
 export const metadata: Metadata = pageMetadata(seo);

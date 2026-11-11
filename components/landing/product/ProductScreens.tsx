@@ -1,7 +1,7 @@
 "use client";
 
 /*
- * Real Vitreen screens, ported from the dashboard (gallery-OS,
+ * Real Good Artworks screens, ported from the dashboard (gallery-OS,
  * `dashboard/src/components/workspace/…`): the same markup and the same Tailwind
  * classes, with the data passed in as props instead of read from Sanity, and the
  * links/buttons made static. Nothing here is a new design.

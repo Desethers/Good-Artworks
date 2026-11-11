@@ -101,7 +101,7 @@ function CheckIcon() {
 /*
  * Réplique du node Figma 526:2471 (WhatsApp Chat) — mêmes bulles (queues
  * incluses), photo d'œuvre, double-check bleu et carte PDF, exportés du
- * fichier Vitreen vers /mockups/whatsapp-figma-v2. La barre de saisie garde
+ * fichier Good Artworks vers /mockups/whatsapp-figma-v2. La barre de saisie garde
  * le contexte mobile et anime la commande juste avant son envoi.
  */
 const WA = "/mockups/whatsapp-figma-v2";
@@ -303,7 +303,7 @@ function GalleriesEditorialIntro({
             "Toute galerie qui souhaite une présence en ligne",
             "sans dépendre d’un développeur.",
           ],
-          body: "Vitreen part de vos archives, de vos outils et de vos habitudes pour créer une infrastructure plus claire autour des œuvres.",
+          body: "Good Artworks part de vos archives, de vos outils et de vos habitudes pour créer une infrastructure plus claire autour des œuvres.",
         }
       : {
           label: "Which galleries?",
@@ -311,7 +311,7 @@ function GalleriesEditorialIntro({
             "Any gallery that wants an online presence",
             "without depending on a developer.",
           ],
-          body: "Vitreen starts from your archives, tools and habits, then builds a clearer operating layer around your artworks.",
+          body: "Good Artworks starts from your archives, tools and habits, then builds a clearer operating layer around your artworks.",
         };
 
   const highlights =

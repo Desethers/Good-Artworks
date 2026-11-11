@@ -13,11 +13,11 @@ const FAQ = [
   },
   {
     q: "What is Early Access?",
-    a: "The first three galleries on Vitreen pay €49/month and keep that rate for as long as their subscription stays active. After that, the price is €99/month.",
+    a: "The first three galleries on Good Artworks pay €49/month and keep that rate for as long as their subscription stays active. After that, the price is €99/month.",
   },
   {
     q: "Is there a commitment?",
-    a: "No. Vitreen is month to month, and you can cancel anytime.",
+    a: "No. Good Artworks is month to month, and you can cancel anytime.",
   },
   {
     q: "What happens if I stop?",
@@ -29,7 +29,7 @@ const FAQ = [
   },
   {
     q: "Who keeps the system running day to day?",
-    a: "Your team, using Vitreen independently. Early Access galleries also have a direct line to the founder.",
+    a: "Your team, using Good Artworks independently. Early Access galleries also have a direct line to the founder.",
   },
 ];
 

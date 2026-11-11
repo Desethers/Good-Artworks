@@ -302,7 +302,7 @@ export default function ArtistWebsiteSyncVisual() {
   return (
     <motion.div
       role="img"
-      aria-label="Three artworks selected in the real Vitreen editor are published to the Selected Works grid of the gallery website."
+      aria-label="Three artworks selected in the real Good Artworks editor are published to the Selected Works grid of the gallery website."
       animate={{ opacity: currentPhase === LAST_PHASE ? 0 : 1 }}
       transition={{ duration: 0.38, ease }}
       className="flex h-full w-full items-center justify-center"

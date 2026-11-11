@@ -1,23 +1,23 @@
 import type { Metadata } from "next";
 import type { Lang } from "@/lib/lang";
 
-export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://vitreen.art";
-export const SITE_NAME = "Vitreen";
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://goodart.works";
+export const SITE_NAME = "Good Artworks";
 
 /* English is served at the root, French under /fr. Keeping the English URLs
  * unprefixed preserves whatever equity the live pages already have. */
 export const SITE: Record<Lang, { title: string; description: string; ogLocale: string }> = {
   en: {
-    title: "Vitreen — Sales and inventory software for art galleries",
+    title: "Good Artworks — Sales and inventory software for art galleries",
     description:
       "Sales and inventory tools for art galleries and dealers in design and collectible objects.",
     ogLocale: "en_GB",
   },
   fr: {
     title:
-      "Vitreen — Outils de vente et inventaire pour l’art, le design et les objets de collection",
+      "Good Artworks — Outils de vente et inventaire pour l’art, le design et les objets de collection",
     description:
-      "Vitreen propose des outils de vente et de gestion d’inventaire pour les galeries d’art, marchands de design et professionnels des objets de collection. Retrouvez œuvres, prix, disponibilités et relations clients depuis Gmail, WhatsApp et Gallery OS.",
+      "Good Artworks propose des outils de vente et de gestion d’inventaire pour les galeries d’art, marchands de design et professionnels des objets de collection. Retrouvez œuvres, prix, disponibilités et relations clients depuis Gmail, WhatsApp et Gallery OS.",
     ogLocale: "fr_FR",
   },
 };

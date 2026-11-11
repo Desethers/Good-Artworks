@@ -7,11 +7,11 @@ const COPY: RecognitionCopy = {
   sub: "Retrouvez œuvres, prix et détails dans WhatsApp.",
   p1: "Un collectionneur écrit sur WhatsApp : « Est-elle toujours disponible ? »",
   p2: "Alors la recherche commence. L’image est dans un dossier, le prix dans un tableur, ce que vous lui avez envoyé le mois dernier dans la tête de quelqu’un.",
-  p3: "Demandez maintenant à Vitreen, directement dans WhatsApp. Il vous renvoie l’œuvre avec son image, son prix et sa disponibilité, prête à transférer au collectionneur, et garde la trace de ce que chaque collectionneur a reçu.",
+  p3: "Demandez maintenant à Good Artworks, directement dans WhatsApp. Il vous renvoie l’œuvre avec son image, son prix et sa disponibilité, prête à transférer au collectionneur, et garde la trace de ce que chaque collectionneur a reçu.",
   cta: "Essayer sur WhatsApp",
   lang: "fr",
   phone: {
-    name: "Vitreen",
+    name: "Good Artworks",
     status: "assistant de vente",
     placeholder: "Message",
     messages: [

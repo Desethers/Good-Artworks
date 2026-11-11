@@ -3,11 +3,11 @@
 import { PromisesSection, type PromisesCopy } from "@/components/landing/LandingPromises";
 
 const COPY: PromisesCopy = {
-  title: "Ce que Vitreen ne fera jamais.",
+  title: "Ce que Good Artworks ne fera jamais.",
   items: [
     {
       title: "Rien ne part sans vous.",
-      body: "Vitreen prépare, vous relisez, vous envoyez. Il n’écrit jamais seul à un collectionneur et n’invente jamais un prix.",
+      body: "Good Artworks prépare, vous relisez, vous envoyez. Il n’écrit jamais seul à un collectionneur et n’invente jamais un prix.",
     },
     {
       title: "Aucun nouveau logiciel à apprendre.",

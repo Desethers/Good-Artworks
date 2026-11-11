@@ -40,7 +40,7 @@ const STEPS = [
   },
   {
     title: "Live Publishing",
-    subtitle: "Make updates in Vitreen and keep your website current.",
+    subtitle: "Make updates in Good Artworks and keep your website current.",
     bullets: ["No code", "No separate CMS", "No back-and-forth for small edits"],
   },
 ];
@@ -358,7 +358,7 @@ function ConnectedSectionsFrame({ reduceMotion }: { reduceMotion: boolean }) {
               ◫
             </span>
             <div>
-              <h3 className="text-[14px] font-medium text-[#181818]">Vitreen</h3>
+              <h3 className="text-[14px] font-medium text-[#181818]">Good Artworks</h3>
               <p className="text-[9px] text-[#9A9A96]">Connected sections</p>
             </div>
           </div>
@@ -485,7 +485,7 @@ function NoCmsFrame({ reduceMotion }: { reduceMotion: boolean }) {
       <div className="flex h-[62px] items-center justify-between border-b border-[#E8E8E6] px-7">
         <div>
           <h3 className="text-[15px] font-medium text-[#181818]">Website content</h3>
-          <p className="mt-0.5 text-[10px] text-[#8A8A86]">Vitreen · Website Publisher</p>
+          <p className="mt-0.5 text-[10px] text-[#8A8A86]">Good Artworks · Website Publisher</p>
         </div>
         <span className="rounded-full border border-[#E1E1DE] px-3 py-1.5 text-[10px] text-[#6B6A67]">
           3 connected sections

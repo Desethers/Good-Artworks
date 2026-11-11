@@ -225,12 +225,15 @@ export function GalleryOsOverviewMock({ glass = false }: { glass?: boolean }) {
             <div className="flex items-center gap-2.5">
               <GalleryOsMark />
               <span className="text-[13px] font-semibold tracking-tight text-zinc-900">
-                Vitreen
+                Good Artworks
               </span>
             </div>
           </div>
 
-          <nav className="flex flex-1 flex-col gap-0.5 px-3 py-3" aria-label="Vitreen preview">
+          <nav
+            className="flex flex-1 flex-col gap-0.5 px-3 py-3"
+            aria-label="Good Artworks preview"
+          >
             {SIDEBAR_ITEMS.map(({ label, icon: Icon, badge }) => (
               <div
                 key={label}
@@ -255,7 +258,7 @@ export function GalleryOsOverviewMock({ glass = false }: { glass?: boolean }) {
 
           <div className="flex items-baseline justify-between px-4 py-4 text-[9px]">
             <span className="text-zinc-400">Sign out</span>
-            <span className="text-zinc-300">© Vitreen</span>
+            <span className="text-zinc-300">© Good Artworks</span>
           </div>
         </aside>
 

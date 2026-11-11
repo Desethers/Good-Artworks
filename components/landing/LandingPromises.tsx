@@ -5,11 +5,11 @@ import { BODY, CONTAINER, H2, SECTION } from "@/components/landing/styles";
 export type PromisesCopy = { title: string; items: { title: string; body: string }[] };
 
 export const PROMISES_EN: PromisesCopy = {
-  title: "What Vitreen will never do.",
+  title: "What Good Artworks will never do.",
   items: [
     {
       title: "Nothing leaves without you.",
-      body: "Vitreen prepares, you review, you send. It never writes to a collector on its own and never invents a price.",
+      body: "Good Artworks prepares, you review, you send. It never writes to a collector on its own and never invents a price.",
     },
     {
       title: "No new software to learn.",

@@ -21,21 +21,21 @@ const LETTER = {
     "That should not change.",
     "But the work behind a gallery has become more demanding. Even small teams must now manage artwork records, keep a website current, prepare private material and follow collector conversations across multiple channels.",
     "The cultural work remains visible. Behind it, the operational burden keeps growing.",
-    "Vitreen was created around a simple idea: galleries should be able to operate professionally without becoming larger, heavier or more technical.",
+    "Good Artworks was created around a simple idea: galleries should be able to operate professionally without becoming larger, heavier or more technical.",
     "Artwork information should be entered once and reused across the website, private selections, emails and PDFs.",
     "Technology should not replace judgment or relationships. It should support them.",
     "A stronger operational system helps galleries respond faster, follow up more consistently and spend more time with artists, exhibitions and collectors.",
     "For established galleries, this means more control and less dependency.",
     "For younger gallerists, it means starting with professional foundations before building a larger team.",
-    "Vitreen is being built for both.",
+    "Good Artworks is being built for both.",
   ],
-  signature: { name: "Raphaël", role: "Founder, Vitreen" },
+  signature: { name: "Raphaël", role: "Founder, Good Artworks" },
 };
 
 const AUDIENCES = [
   {
     title: "For established galleries",
-    text: "Vitreen strengthens existing operations.",
+    text: "Good Artworks strengthens existing operations.",
   },
   {
     title: "For new gallerists",
@@ -50,7 +50,7 @@ export default function AboutPage() {
 
       <section className={`${SECTION} pt-32 md:pt-40`}>
         <div className={CONTAINER}>
-          <p className={EYEBROW}>About Vitreen</p>
+          <p className={EYEBROW}>About Good Artworks</p>
           <h1 className={`${H2} mt-4 max-w-2xl`}>Build the gallery you want to run.</h1>
           <p className={`${BODY} mt-5 max-w-2xl`}>
             Better systems for your artists, collectors and daily work.

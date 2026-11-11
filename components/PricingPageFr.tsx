@@ -13,11 +13,11 @@ const FAQ = [
   },
   {
     q: "Qu’est-ce que l’offre de lancement ?",
-    a: "Les trois premières galeries sur Vitreen paient 49 €/mois et gardent ce tarif tant que leur abonnement reste actif. Ensuite, le prix est de 99 €/mois.",
+    a: "Les trois premières galeries sur Good Artworks paient 49 €/mois et gardent ce tarif tant que leur abonnement reste actif. Ensuite, le prix est de 99 €/mois.",
   },
   {
     q: "Y a-t-il un engagement ?",
-    a: "Non. Vitreen se paie au mois, et vous pouvez résilier à tout moment.",
+    a: "Non. Good Artworks se paie au mois, et vous pouvez résilier à tout moment.",
   },
   {
     q: "Que se passe-t-il si j’arrête ?",
@@ -29,7 +29,7 @@ const FAQ = [
   },
   {
     q: "Qui fait fonctionner le système au quotidien ?",
-    a: "Votre équipe, en autonomie avec Vitreen. Les galeries de l’offre de lancement ont aussi une ligne directe avec le fondateur.",
+    a: "Votre équipe, en autonomie avec Good Artworks. Les galeries de l’offre de lancement ont aussi une ligne directe avec le fondateur.",
   },
 ];
 

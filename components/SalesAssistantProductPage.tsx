@@ -219,13 +219,13 @@ const BODY_TYPE_END = BODY_TYPE_START + BODY_TEXT.length * BODY_TYPE_STEP;
 
 /**
  * `onPhase` follows the loop for a caption beside it: 0 while the reply is
- * written, 1 once the Vitreen panel opens for the search, 2 once the work is
+ * written, 1 once the Good Artworks panel opens for the search, 2 once the work is
  * in the draft.
  */
 const GMAIL_PANEL_LABELS = {
   fr: {
     insert: "Insérer une œuvre",
-    searchIn: "Recherche dans Vitreen",
+    searchIn: "Recherche dans Good Artworks",
     hint: "Titre ou nom d’artiste · appuie sur Chercher",
     search: "Chercher",
     gallery: "Vue galerie",
@@ -233,7 +233,7 @@ const GMAIL_PANEL_LABELS = {
   },
   en: {
     insert: "Insert a work",
-    searchIn: "Search in Vitreen",
+    searchIn: "Search in Good Artworks",
     hint: "Title or artist name · press Search",
     search: "Search",
     gallery: "Gallery view",
@@ -450,7 +450,7 @@ export function IntegrationsFrame({
             transition={{ duration: 0.32, ease }}
           >
             <div className="flex h-9 shrink-0 items-center justify-between bg-[#414141] px-5 text-white">
-              <h3 className="text-[14px] font-semibold">Vitreen</h3>
+              <h3 className="text-[14px] font-semibold">Good Artworks</h3>
               <div className="flex items-center gap-3 text-[18px] leading-none">
                 <span aria-hidden="true">⋮</span>
                 <span aria-hidden="true">×</span>
@@ -633,9 +633,9 @@ function WhatsAppPdfFrame() {
               <p className="text-[6px] leading-[1.4] text-[#9A9A96]">
                 Confidential
                 <br />
-                Prepared by Vitreen
+                Prepared by Good Artworks
               </p>
-              <p className="text-[7px] font-medium text-[#111110]">VITREEN</p>
+              <p className="text-[7px] font-medium text-[#111110]">GOOD ARTWORKS</p>
             </div>
           </article>
         </div>
@@ -839,7 +839,7 @@ export default function SalesAssistantProductPage() {
               Sales Assistant
             </p>
             <h1 className="font-display text-[28px] font-normal leading-[1.3] tracking-[-0.04em] text-[#111110] md:text-[40px]">
-              Bring Vitreen into every collector conversation.
+              Bring Good Artworks into every collector conversation.
             </h1>
             <p className="mt-1 max-w-4xl text-[26px] leading-[1.35] tracking-[-0.02em] text-[#6B6A67] md:text-[36px]">
               Access your inventory from Gmail and WhatsApp to share works, prices and images.
@@ -856,7 +856,7 @@ export default function SalesAssistantProductPage() {
 
       <div className="-mt-10 md:-mt-16">
         <ScrollStory
-          title="Vitreen adapts to the gallery."
+          title="Good Artworks adapts to the gallery."
           subtitle="Not the other way around."
           hideHeader
           steps={STEPS}

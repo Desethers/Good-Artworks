@@ -8,12 +8,12 @@ const site = SITE.fr;
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: { default: site.title, template: "%s — Vitreen" },
+  title: { default: site.title, template: "%s — Good Artworks" },
   description: site.description,
   applicationName: SITE_NAME,
-  authors: [{ name: "Vitreen" }],
-  creator: "Vitreen",
-  publisher: "Vitreen",
+  authors: [{ name: "Good Artworks" }],
+  creator: "Good Artworks",
+  publisher: "Good Artworks",
   formatDetection: { email: false, address: false, telephone: false },
   alternates: alternates("fr", "/"),
   openGraph: {

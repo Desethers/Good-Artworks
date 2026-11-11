@@ -86,12 +86,12 @@ export type DemoCaseCopy = {
   more: string;
 };
 
-/** The demo case in one card: Marie asks, Vitreen prepares the reply, a person reviews and sends. */
+/** The demo case in one card: Marie asks, Good Artworks prepares the reply, a person reviews and sends. */
 export const DEMO_CASE_EN: DemoCaseCopy = {
   channel: "WhatsApp",
   who: "Marie Beaumont",
   question: "Anything new from Sacha Elron?",
-  prepared: "Prepared by Vitreen",
+  prepared: "Prepared by Good Artworks",
   reply:
     "Hello Marie, a new Elron just arrived, the large format you liked in March. Shall I send you more images?",
   work: {
@@ -325,7 +325,7 @@ export default function LandingNav() {
             className="flex items-center gap-2 font-display text-base tracking-tight text-[#111110] md:text-lg"
           >
             <img src="/favicon.png" alt="" className="h-5 w-5 rounded-[5px]" />
-            Vitreen
+            Good Artworks
           </a>
 
           <nav className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-7 md:flex">

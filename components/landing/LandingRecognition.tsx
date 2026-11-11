@@ -21,11 +21,11 @@ export const RECOGNITION_EN: RecognitionCopy = {
   sub: "Find artworks, prices and details in WhatsApp.",
   p1: "A collector writes on WhatsApp: “Is it still available?”",
   p2: "Then the search begins. The image is in a folder, the price in a spreadsheet, what you sent last month in someone’s head.",
-  p3: "Now ask Vitreen, right in WhatsApp. It sends back the artwork with its image, price and availability, ready to forward to the collector, and keeps track of what each collector has received.",
+  p3: "Now ask Good Artworks, right in WhatsApp. It sends back the artwork with its image, price and availability, ready to forward to the collector, and keeps track of what each collector has received.",
   cta: "Try it on WhatsApp",
   lang: "en",
   phone: {
-    name: "Vitreen",
+    name: "Good Artworks",
     status: "sales assistant",
     placeholder: "Message",
     messages: [

@@ -6,10 +6,11 @@ import { NextResponse } from "next/server";
  * delivers from onboarding@resend.dev, and only to the e-mail of the Resend
  * account itself (raphael.vitreen@gmail.com).
  * Once the domain is verified, set CONTACT_FROM_EMAIL (in Vercel too), e.g.
- * "Vitreen <contact@vitreen.art>": messages are then sent from that address to
+ * "Good Artworks <contact@vitreen.art>": messages are then sent from that address to
  * contact@vitreen.art, which forwards to the inbox. CONTACT_TO_EMAIL overrides it.
  */
-const CONTACT_FROM = process.env.CONTACT_FROM_EMAIL || "Vitreen Contact <onboarding@resend.dev>";
+const CONTACT_FROM =
+  process.env.CONTACT_FROM_EMAIL || "Good Artworks Contact <onboarding@resend.dev>";
 const CONTACT_TO =
   process.env.CONTACT_TO_EMAIL ||
   (process.env.CONTACT_FROM_EMAIL ? "contact@vitreen.art" : "raphael.vitreen@gmail.com");

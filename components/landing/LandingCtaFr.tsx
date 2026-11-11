@@ -27,7 +27,7 @@ const FOOTER_COLUMNS = [
     ],
   },
   {
-    title: "Vitreen",
+    title: "Good Artworks",
     links: [
       { label: "À propos", href: "/fr/about" },
       { label: "Tarifs", href: "/fr/pricing" },
@@ -60,7 +60,7 @@ export default function LandingCtaFr() {
             <div className="grid gap-14 md:grid-cols-[minmax(240px,1fr)_minmax(0,1.5fr)] md:gap-20 lg:gap-28">
               <div>
                 <a href="/fr" className="font-display text-[18px] tracking-[-0.025em] text-white">
-                  Vitreen
+                  Good Artworks
                 </a>
                 <p className="mt-5 max-w-[23rem] text-[14px] leading-[1.65] text-[#ADADAA]">
                   L’intelligence relationnelle pour vendre l’art et le design.
@@ -98,7 +98,7 @@ export default function LandingCtaFr() {
             </div>
 
             <div className="mt-16 grid gap-3 pt-6 text-[12px] text-[#6B6A67] sm:grid-cols-[1fr_auto_1fr] sm:items-center md:mt-20">
-              <p>© 2026 Vitreen</p>
+              <p>© 2026 Good Artworks</p>
               <div className="flex items-center gap-4">
                 <LandingLanguageSwitch lang="fr" />
                 <p>Paris, France</p>

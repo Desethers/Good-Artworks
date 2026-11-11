@@ -3,7 +3,7 @@ import { ROLE_PATH_SLUGS } from "@/lib/solutions";
 import { SITE_URL, localeUrls } from "@/lib/seo";
 
 /* Les canoniques rendues par `alternates()` n'ont pas de slash final ("/" est
- * résolu en https://vitreen.art). Le sitemap doit déclarer exactement la même
+ * résolu en https://goodart.works). Le sitemap doit déclarer exactement la même
  * chaîne, sinon la racine y apparaît sous une forme que la page elle-même ne
  * revendique pas. */
 function abs(path: string) {

@@ -9,7 +9,7 @@ const FR_COPY: RelationshipsCopy = {
   eyebrow: "Se souvenir",
   title: "Chaque collectionneur, en mémoire.",
   intro:
-    "Vitreen garde la mémoire de chaque conversation {gmail}Gmail et {whatsapp}WhatsApp, reliée aux œuvres dont vous parlez.",
+    "Good Artworks garde la mémoire de chaque conversation {gmail}Gmail et {whatsapp}WhatsApp, reliée aux œuvres dont vous parlez.",
   link: {
     name: "Qui a reçu quoi",
     body: "Rattache chaque demande et chaque œuvre envoyée au collectionneur et à l’œuvre : qui a demandé, qui l’a reçue, si elle a été ouverte.",

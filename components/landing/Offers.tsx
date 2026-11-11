@@ -66,7 +66,7 @@ const COPY: Record<"en" | "fr", Copy> = {
       },
     ],
     terms: "Sans engagement. Résiliable à tout moment.",
-    cta: "Rejoindre Vitreen",
+    cta: "Rejoindre Good Artworks",
     footer:
       "Offre réservée aux 3 premières galeries. Conservez votre tarif tant que votre abonnement reste actif. Puis 99 €/mois pour les nouveaux clients.",
   },

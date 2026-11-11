@@ -25,7 +25,7 @@ import { WA, WaBubble, WaTyping, type WaMessage } from "@/components/whatsapp/Wa
  * WhatsApp. Each is a scene that plays in beats, in step with three numbered
  * steps beside it. Only what the product does today:
  *  - email: the site's real Gmail mockup (`IntegrationsFrame`): search a work
- *    from the Vitreen panel and insert it into the reply;
+ *    from the Good Artworks panel and insert it into the reply;
  *  - WhatsApp: the assistant number (`src/lib/whatsapp/i18n.ts`, `inventory.ts`).
  */
 
@@ -52,7 +52,7 @@ export type FeedEvent = {
 };
 
 export type ConversationSectionsCopy = {
-  /** Spreadsheet → Vitreen inventory → Gmail and WhatsApp, and who does the move. */
+  /** Spreadsheet → Good Artworks inventory → Gmail and WhatsApp, and who does the move. */
   migration: {
     eyebrow: string;
     title: string;
@@ -108,18 +108,21 @@ export type ConversationSectionsCopy = {
 export const CONVERSATION_SECTIONS_EN: ConversationSectionsCopy = {
   migration: {
     eyebrow: "Migration",
-    title: "We move your spreadsheet into Vitreen.",
+    title: "We move your spreadsheet into Good Artworks.",
     sub: "Then every work is ready in Gmail and WhatsApp.",
     stages: [
       { k: "Your spreadsheet", v: "Excel, Google Sheets or an Artlogic export. As it is." },
-      { k: "Your Vitreen inventory", v: "Cleaned up and loaded by us: images, prices, statuses." },
+      {
+        k: "Your Good Artworks inventory",
+        v: "Cleaned up and loaded by us: images, prices, statuses.",
+      },
       { k: "Gmail and WhatsApp", v: "Find a work and send it where the collector wrote." },
     ],
     columns: ["Artist", "Title", "Price", "Status"],
     file: "inventory.xlsx",
     drop: "Drop your spreadsheet or Artlogic export",
     importing: "Importing",
-    inventory: "Vitreen · Inventory",
+    inventory: "Good Artworks · Inventory",
     imported: "works imported",
     gmail: "Insert in your reply",
     whatsapp: "Ready to forward",
@@ -232,7 +235,7 @@ export const CONVERSATION_SECTIONS_EN: ConversationSectionsCopy = {
         who: "Marie Beaumont",
         initials: "MB",
         title: "You forwarded “Evening field” to Marie Beaumont",
-        body: "Prepared in Vitreen, sent from your WhatsApp.",
+        body: "Prepared in Good Artworks, sent from your WhatsApp.",
         when: "Today",
       },
     ],
@@ -240,7 +243,7 @@ export const CONVERSATION_SECTIONS_EN: ConversationSectionsCopy = {
   statement: {
     lines: ["Your inventory.", "Your CRM."],
     linked: "Linked to",
-    body: "Your stock and your collector records live in Vitreen, linked to the conversations where you sell. Nothing to retype.",
+    body: "Your stock and your collector records live in Good Artworks, linked to the conversations where you sell. Nothing to retype.",
   },
   email: {
     eyebrow: "Gmail",
@@ -248,7 +251,7 @@ export const CONVERSATION_SECTIONS_EN: ConversationSectionsCopy = {
     sub: "Answer with the work, not a search.",
     steps: [
       { k: "You reply", v: "Write to Marie as you always do, in Gmail." },
-      { k: "You search", v: "Open Vitreen in the draft and type “Elron”." },
+      { k: "You search", v: "Open Good Artworks in the draft and type “Elron”." },
       {
         k: "You send",
         v: "The work goes into your reply, with its image and price. You hit send.",
@@ -265,11 +268,11 @@ export const CONVERSATION_SECTIONS_EN: ConversationSectionsCopy = {
         k: "You ask",
         v: "Type the artist and a title. The card comes back with its price and availability.",
       },
-      { k: "You prepare", v: "Tap “Send to…”, pick Marie. Vitreen notes it in her history." },
-      { k: "You forward", v: "The card, from your own WhatsApp. Vitreen never sends." },
+      { k: "You prepare", v: "Tap “Send to…”, pick Marie. Good Artworks notes it in her history." },
+      { k: "You forward", v: "The card, from your own WhatsApp. Good Artworks never sends." },
     ],
     line: "Your usual WhatsApp is never read.",
-    assistant: { name: "Vitreen", status: "assistant", initials: "V" },
+    assistant: { name: "Good Artworks", status: "assistant", initials: "GA" },
     collector: { name: "Marie Beaumont", status: "online", initials: "MB" },
     ask: [
       { from: "me", time: "10:41", text: "elron evening field" },
@@ -304,11 +307,14 @@ export const CONVERSATION_SECTIONS_EN: ConversationSectionsCopy = {
 export const CONVERSATION_SECTIONS_FR: ConversationSectionsCopy = {
   migration: {
     eyebrow: "Migration",
-    title: "Nous transférons votre tableur dans Vitreen.",
+    title: "Nous transférons votre tableur dans Good Artworks.",
     sub: "Ensuite, chaque œuvre est prête dans Gmail et WhatsApp.",
     stages: [
       { k: "Votre tableur", v: "Excel, Google Sheets ou un export Artlogic. Tel quel." },
-      { k: "Votre inventaire Vitreen", v: "Nettoyé et chargé par nous : images, prix, statuts." },
+      {
+        k: "Votre inventaire Good Artworks",
+        v: "Nettoyé et chargé par nous : images, prix, statuts.",
+      },
       {
         k: "Gmail et WhatsApp",
         v: "Retrouvez une œuvre et envoyez-la là où le collectionneur a écrit.",
@@ -318,7 +324,7 @@ export const CONVERSATION_SECTIONS_FR: ConversationSectionsCopy = {
     file: "inventaire.xlsx",
     drop: "Déposez votre tableur ou votre export Artlogic",
     importing: "Import en cours",
-    inventory: "Vitreen · Inventaire",
+    inventory: "Good Artworks · Inventaire",
     imported: "œuvres importées",
     gmail: "À insérer dans votre réponse",
     whatsapp: "Prête à transférer",
@@ -437,7 +443,7 @@ export const CONVERSATION_SECTIONS_FR: ConversationSectionsCopy = {
         who: "Marie Beaumont",
         initials: "MB",
         title: "Vous avez transféré « Evening field » à Marie Beaumont",
-        body: "Préparée dans Vitreen, envoyée depuis votre WhatsApp.",
+        body: "Préparée dans Good Artworks, envoyée depuis votre WhatsApp.",
         when: "Aujourd’hui",
       },
     ],
@@ -445,7 +451,7 @@ export const CONVERSATION_SECTIONS_FR: ConversationSectionsCopy = {
   statement: {
     lines: ["Votre inventaire.", "Votre CRM."],
     linked: "Relié à",
-    body: "Votre stock et vos fiches collectionneurs vivent dans Vitreen, reliés aux conversations où vous vendez. Rien à ressaisir.",
+    body: "Votre stock et vos fiches collectionneurs vivent dans Good Artworks, reliés aux conversations où vous vendez. Rien à ressaisir.",
   },
   email: {
     eyebrow: "Gmail",
@@ -453,7 +459,7 @@ export const CONVERSATION_SECTIONS_FR: ConversationSectionsCopy = {
     sub: "Répondez avec l’œuvre, pas avec une recherche.",
     steps: [
       { k: "Vous répondez", v: "Écrivez à Marie comme d’habitude, dans Gmail." },
-      { k: "Vous cherchez", v: "Ouvrez Vitreen dans le brouillon et tapez « Elron »." },
+      { k: "Vous cherchez", v: "Ouvrez Good Artworks dans le brouillon et tapez « Elron »." },
       {
         k: "Vous envoyez",
         v: "L’œuvre entre dans votre réponse, avec son image et son prix. C’est vous qui envoyez.",
@@ -472,12 +478,15 @@ export const CONVERSATION_SECTIONS_FR: ConversationSectionsCopy = {
       },
       {
         k: "Vous préparez",
-        v: "Touchez « Envoyer à… », choisissez Marie. Vitreen le note dans son historique.",
+        v: "Touchez « Envoyer à… », choisissez Marie. Good Artworks le note dans son historique.",
       },
-      { k: "Vous transférez", v: "La fiche, depuis votre propre WhatsApp. Vitreen n’envoie rien." },
+      {
+        k: "Vous transférez",
+        v: "La fiche, depuis votre propre WhatsApp. Good Artworks n’envoie rien.",
+      },
     ],
     line: "Votre WhatsApp habituel n’est jamais lu.",
-    assistant: { name: "Vitreen", status: "assistant", initials: "V" },
+    assistant: { name: "Good Artworks", status: "assistant", initials: "GA" },
     collector: { name: "Marie Beaumont", status: "en ligne", initials: "MB" },
     ask: [
       { from: "me", time: "10:41", text: "elron evening field" },
@@ -1489,7 +1498,7 @@ function OnboardingScreen({ c, beat }: { c: ConversationSectionsCopy["migration"
                 <div>
                   <p className="text-[15px] font-semibold text-zinc-900">Connect your inventory</p>
                   <p className="mt-0.5 text-[12px] text-zinc-700">
-                    Choose how to bring your works into Vitreen
+                    Choose how to bring your works into Good Artworks
                   </p>
                 </div>
                 <div className="space-y-2">

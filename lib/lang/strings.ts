@@ -79,7 +79,7 @@ export const translations = {
         bookIntro: "Comment ça se passe",
         bookSteps: [
           "Vous nous parlez de vos collectionneurs et de votre façon de vendre",
-          "Nous vous montrons Vitreen sur une vraie demande",
+          "Nous vous montrons Good Artworks sur une vraie demande",
           "Nous voyons ensemble si c’est fait pour vous",
         ],
         bookReassure: "Rien à préparer. Gratuit et sans engagement.",
@@ -104,7 +104,7 @@ export const translations = {
     hero: {
       title: "Nous construisons de meilleurs systèmes pour vendre l’art",
       subtitle:
-        "Vitreen combine expertise et technologie pour améliorer les workflows de vente des galeries, avec des outils IA connectés à leur inventaire dans Gmail et WhatsApp.",
+        "Good Artworks combine expertise et technologie pour améliorer les workflows de vente des galeries, avec des outils IA connectés à leur inventaire dans Gmail et WhatsApp.",
       ctaPrimary: "Demander une démo",
       ctaSecondary: "Découvrir Gallery OS",
     },
@@ -128,7 +128,7 @@ export const translations = {
       kicker: "Couche opérationnelle",
       title: "A gallery infrastructure, not another platform",
       body:
-        "Chaque galerie gère ses œuvres, collectionneurs et ventes différemment. Vitreen s’adapte à vos sources existantes, vos habitudes de communication et vos workflows relationnels — et les transforme en une couche opérationnelle plus claire.",
+        "Chaque galerie gère ses œuvres, collectionneurs et ventes différemment. Good Artworks s’adapte à vos sources existantes, vos habitudes de communication et vos workflows relationnels — et les transforme en une couche opérationnelle plus claire.",
       connectedLabel: "Côté archive",
       connectedTitle: "Gardez vos sources existantes",
       connectedBody:
@@ -139,7 +139,7 @@ export const translations = {
       nativeBody:
         "Diffusez via Gmail, WhatsApp, liens privés et PDFs, sans ajouter une nouvelle plateforme à apprendre pour l’équipe.",
       note:
-        "Vitreen est conçu pour se placer entre l’archive et les conversations collectionneurs. La galerie garde son workflow actuel ; Vitreen rend les œuvres, les échanges et les demandes plus faciles à activer.",
+        "Good Artworks est conçu pour se placer entre l’archive et les conversations collectionneurs. La galerie garde son workflow actuel ; Good Artworks rend les œuvres, les échanges et les demandes plus faciles à activer.",
       features: [
         {
           label: "01",
@@ -316,12 +316,12 @@ export const translations = {
     },
     processFlow: {
       title: "On part de votre galerie existante",
-      subtitle: "On adapte Vitreen à la façon dont votre équipe travaille.",
+      subtitle: "On adapte Good Artworks à la façon dont votre équipe travaille.",
       steps: [
         {
           number: "01",
           title: "Commencez depuis votre configuration existante",
-          desc: "Connectez votre système actuel, vos fichiers CSV ou vos tableurs, ou gérez les œuvres directement dans la bibliothèque Vitreen.",
+          desc: "Connectez votre système actuel, vos fichiers CSV ou vos tableurs, ou gérez les œuvres directement dans la bibliothèque Good Artworks.",
           week: "CONNEXION",
         },
         {
@@ -428,7 +428,7 @@ export const translations = {
     },
     pricingBand: {
       title: "Deux offres, sans frais cachés",
-      subtitle: "Gallery OS, avec ou sans Vitreen Partner.",
+      subtitle: "Gallery OS, avec ou sans Good Artworks Partner.",
       pilotPill: "Programme pilote — 3 places · installation à −50 %",
       base: {
         title: "Gallery OS",
@@ -511,7 +511,7 @@ export const translations = {
         cta: "Parlons-en",
       },
       costAnchor: {
-        title: "Ce que remplace Vitreen",
+        title: "Ce que remplace Good Artworks",
         items: [
           {
             title: "Outil d’inventaire",
@@ -577,7 +577,7 @@ export const translations = {
           body1:
             "Sans canal d\u2019achat \u00e0 la hauteur, vous restez hors du champ des collectionneurs qui d\u00e9cident d\u00e9j\u00e0 en ligne \u2014 partout dans le monde.",
           body2:
-            "Vitreen d\u00e9ploie une distribution native, permettant d\u2019exposer, diffuser et rendre accessibles vos \u0153uvres en continu, sans d\u00e9pendre des circuits traditionnels.",
+            "Good Artworks d\u00e9ploie une distribution native, permettant d\u2019exposer, diffuser et rendre accessibles vos \u0153uvres en continu, sans d\u00e9pendre des circuits traditionnels.",
         },
         {
           heading: "Transformez l\u2019attention en engagement durable.",
@@ -591,7 +591,7 @@ export const translations = {
           body1:
             "Donn\u00e9es, \u00e9changes et historique avec chaque collectionneur se retrouvent au m\u00eame endroit \u2014 fini les informations \u00e9parpill\u00e9es entre mails et outils.",
           body2:
-            "Vitreen relie vos \u0153uvres, s\u00e9lections et demandes pour rendre chaque \u00e9change plus lisible et plus facile \u00e0 suivre.",
+            "Good Artworks relie vos \u0153uvres, s\u00e9lections et demandes pour rendre chaque \u00e9change plus lisible et plus facile \u00e0 suivre.",
         },
       ],
     },
@@ -614,14 +614,14 @@ export const translations = {
         },
         {
           q: "Dois-je utiliser un logiciel spécifique ?",
-          a: "Non. Vitreen peut se connecter à un inventaire existant ou utiliser la Vitreen Artwork Library comme source d’œuvres.",
+          a: "Non. Good Artworks peut se connecter à un inventaire existant ou utiliser la Good Artworks Artwork Library comme source d’œuvres.",
         },
         {
           q: "Que se passe-t-il si je veux arrêter ?",
           a: "Le partenariat est conclu pour 12 mois afin d’inclure l’hébergement, les mises à jour et l’accompagnement mensuel.",
         },
         {
-          q: "Est-ce que Vitreen s\u2019occupe du contenu ?",
+          q: "Est-ce que Good Artworks s\u2019occupe du contenu ?",
           a: "Oui. L’accompagnement mensuel peut inclure la publication du catalogue, la préparation des actualités et la structuration de vos emails, tout en vous laissant la main sur vos contenus.",
         },
         {
@@ -641,7 +641,7 @@ export const translations = {
         title: "Rendez chaque œuvre plus facile à retrouver, partager et vendre.",
         subtitle: "Un inventaire connecté aux outils de vente de votre galerie.",
         body:
-          "Vitreen connecte les archives, inventaires ou bases de données existants de la galerie, puis transforme les œuvres en matériel collector prêt à partager — viewing rooms, sélections privées, PDFs — sans remplacer vos outils.",
+          "Good Artworks connecte les archives, inventaires ou bases de données existants de la galerie, puis transforme les œuvres en matériel collector prêt à partager — viewing rooms, sélections privées, PDFs — sans remplacer vos outils.",
         features: [
           "Connexion à vos archives, inventaires ou bases existantes",
           "Œuvres transformées en viewing rooms, PDFs et liens privés",
@@ -681,10 +681,10 @@ export const translations = {
     ctaBand: {
       title: "Commencez avec votre fonctionnement actuel",
       subtitle: "Ajoutez les outils dont votre galerie a besoin",
-      cta: "Parler à Vitreen",
+      cta: "Parler à Good Artworks",
     },
     about: {
-      eyebrow: "À propos de Vitreen",
+      eyebrow: "À propos de Good Artworks",
       title: "Construisez la galerie que vous voulez diriger",
       lead: "Des outils mieux pensés pour vos artistes, vos collectionneurs et votre quotidien.",
       letter: {
@@ -693,20 +693,20 @@ export const translations = {
           "Le marché de l’art repose encore sur les relations, le jugement et la confiance. Cela ne devrait pas changer.",
           "Mais le travail opérationnel derrière ces relations devient plus lourd.",
           "On attend des petites galeries qu’elles tiennent des fiches d’œuvres justes, un site à jour, une communication soignée avec leurs collectionneurs et du matériel privé irréprochable — souvent avec une équipe très réduite.",
-          "Vitreen a été créé pour leur donner une meilleure infrastructure.",
+          "Good Artworks a été créé pour leur donner une meilleure infrastructure.",
           "Nous relions l’information des œuvres aux endroits où la galerie travaille déjà : son site, ses emails, ses PDFs, ses sélections privées et ses conversations avec les collectionneurs.",
           "L’objectif n’est pas de remplacer la part humaine de la galerie. C’est de la soutenir.",
           "Quand l’information est organisée et prête à l’emploi, l’équipe répond plus vite, relance plus régulièrement et passe plus de temps à construire des relations.",
-          "Pour les galeries établies, Vitreen renforce les opérations existantes.",
+          "Pour les galeries établies, Good Artworks renforce les opérations existantes.",
           "Pour une nouvelle génération de galeristes, il offre un moyen de démarrer avec les capacités d’une structure plus grande, sans en porter les coûts.",
           "Nous pensons que les galeries qui resteront compétitives ne seront pas celles qui utilisent le plus de technologie. Ce seront celles qui l’utilisent avec le plus de clarté.",
         ],
-        signature: { name: "Raphaël", role: "Fondateur, Vitreen" },
+        signature: { name: "Raphaël", role: "Fondateur, Good Artworks" },
       },
       audiences: [
         {
           title: "Pour les galeries établies",
-          text: "Vitreen renforce les opérations existantes.",
+          text: "Good Artworks renforce les opérations existantes.",
         },
         {
           title: "Pour les galeristes qui débutent",
@@ -720,8 +720,8 @@ export const translations = {
       columns: {
         platform: "Produit",
         solutions: "Solutions",
-        company: "Vitreen",
-        studio: "Vitreen Studio",
+        company: "Good Artworks",
+        studio: "Good Artworks Studio",
       },
       links: {
         artworkManagement: "Inventaire des œuvres",
@@ -817,7 +817,7 @@ export const translations = {
         bookIntro: "How it goes",
         bookSteps: [
           "You tell us how you work with your collectors",
-          "We show you Vitreen on a real collector request",
+          "We show you Good Artworks on a real collector request",
           "We see together if it fits the way you work",
         ],
         bookReassure: "Nothing to prepare. Free, no commitment.",
@@ -841,7 +841,7 @@ export const translations = {
     hero: {
       title: "We build better systems for selling art",
       subtitle:
-        "Vitreen is a tech-enabled service that improves how galleries sell, using AI tools connected to their artwork inventory in Gmail and WhatsApp.",
+        "Good Artworks is a tech-enabled service that improves how galleries sell, using AI tools connected to their artwork inventory in Gmail and WhatsApp.",
       ctaPrimary: "Request a demo",
       ctaSecondary: "Explore Gallery OS",
     },
@@ -865,7 +865,7 @@ export const translations = {
       kicker: "Operational layer",
       title: "A gallery infrastructure, not another platform",
       body:
-        "Every gallery handles artworks, collectors and sales differently. Vitreen adapts to your existing sources, communication habits and relationship-driven workflows — then turns them into a clearer operating layer.",
+        "Every gallery handles artworks, collectors and sales differently. Good Artworks adapts to your existing sources, communication habits and relationship-driven workflows — then turns them into a clearer operating layer.",
       connectedLabel: "Archive side",
       connectedTitle: "Keep your existing sources",
       connectedBody:
@@ -876,7 +876,7 @@ export const translations = {
       nativeBody:
         "Distribute through Gmail, WhatsApp, private links and PDFs, without adding a new platform for the team to learn.",
       note:
-        "Designed to sit between the archive and collector conversations. The gallery keeps its current workflow; Vitreen makes it easier to activate artworks, conversations and inquiries.",
+        "Designed to sit between the archive and collector conversations. The gallery keeps its current workflow; Good Artworks makes it easier to activate artworks, conversations and inquiries.",
       features: [
         {
           label: "01",
@@ -1052,12 +1052,12 @@ export const translations = {
     },
     processFlow: {
       title: "Starting from your existing gallery",
-      subtitle: "We adapt Vitreen to the way your team works.",
+      subtitle: "We adapt Good Artworks to the way your team works.",
       steps: [
         {
           number: "01",
           title: "Start from your existing setup",
-          desc: "Connect your current system, CSV files or spreadsheets, or manage artworks directly inside the Vitreen Artwork Library.",
+          desc: "Connect your current system, CSV files or spreadsheets, or manage artworks directly inside the Good Artworks Artwork Library.",
           week: "CONNECT",
         },
         {
@@ -1167,7 +1167,7 @@ export const translations = {
     },
     pricingBand: {
       title: "Choose your plan",
-      subtitle: "Gallery OS, with or without Vitreen Partner.",
+      subtitle: "Gallery OS, with or without Good Artworks Partner.",
       pilotPill: "Pilot programme — 3 places · setup at −50%",
       base: {
         title: "Gallery OS",
@@ -1250,7 +1250,7 @@ export const translations = {
         cta: "Talk to us",
       },
       costAnchor: {
-        title: "What Vitreen replaces",
+        title: "What Good Artworks replaces",
         items: [
           {
             title: "Inventory tool",
@@ -1321,7 +1321,7 @@ export const translations = {
           body1:
             "Without a credible purchasing channel, you remain invisible to collectors who are already making decisions online \u2014 from anywhere in the world.",
           body2:
-            "Vitreen deploys native distribution, enabling you to exhibit, share and make your works continuously accessible, independent of traditional circuits.",
+            "Good Artworks deploys native distribution, enabling you to exhibit, share and make your works continuously accessible, independent of traditional circuits.",
         },
         {
           heading: "Turn curiosity into collecting.",
@@ -1335,7 +1335,7 @@ export const translations = {
           body1:
             "Data, exchanges and history with each collector brought together in one place \u2014 no more information scattered across emails and tools.",
           body2:
-            "Vitreen connects artworks, selections and inquiries so every exchange is clearer and easier to follow.",
+            "Good Artworks connects artworks, selections and inquiries so every exchange is clearer and easier to follow.",
         },
       ],
     },
@@ -1358,14 +1358,14 @@ export const translations = {
         },
         {
           q: "Do I need to use specific software?",
-          a: "No. Vitreen can connect to an existing inventory or use the Vitreen Artwork Library as your artwork source.",
+          a: "No. Good Artworks can connect to an existing inventory or use the Good Artworks Artwork Library as your artwork source.",
         },
         {
           q: "What happens if I want to stop?",
           a: "The partnership runs for 12 months and includes hosting, updates and monthly support.",
         },
         {
-          q: "Does Vitreen handle the content?",
+          q: "Does Good Artworks handle the content?",
           a: "Yes. Monthly support can include catalogue publishing, news preparation and email structuring while you retain control over your content.",
         },
         {
@@ -1385,7 +1385,7 @@ export const translations = {
         title: "Make every artwork easier to find, share and sell.",
         subtitle: "One inventory connected to your gallery’s sales tools.",
         body:
-          "Vitreen connects the gallery’s existing archives, inventories or databases, then turns artworks into collector-ready material to share — viewing rooms, private selections, PDFs — without replacing your tools.",
+          "Good Artworks connects the gallery’s existing archives, inventories or databases, then turns artworks into collector-ready material to share — viewing rooms, private selections, PDFs — without replacing your tools.",
         features: [
           "Connect existing archives, inventories or databases",
           "Turn artworks into viewing rooms, PDFs and private links",
@@ -1425,10 +1425,10 @@ export const translations = {
     ctaBand: {
       title: "Give your gallery a new dimension",
       subtitle: "Let’s talk about your project — no commitment",
-      cta: "Talk to Vitreen",
+      cta: "Talk to Good Artworks",
     },
     about: {
-      eyebrow: "About Vitreen",
+      eyebrow: "About Good Artworks",
       title: "Build the gallery you want to run",
       lead: "Better systems for your artists, collectors and daily work.",
       letter: {
@@ -1438,20 +1438,20 @@ export const translations = {
           "That should not change.",
           "But the work behind a gallery has become more demanding. Even small teams must now manage artwork records, keep a website current, prepare private material and follow collector conversations across multiple channels.",
           "The cultural work remains visible. Behind it, the operational burden keeps growing.",
-          "Vitreen was created around a simple idea: galleries should be able to operate professionally without becoming larger, heavier or more technical.",
+          "Good Artworks was created around a simple idea: galleries should be able to operate professionally without becoming larger, heavier or more technical.",
           "Artwork information should be entered once and reused across the website, private selections, emails and PDFs.",
           "Technology should not replace judgment or relationships. It should support them.",
           "A stronger operational system helps galleries respond faster, follow up more consistently and spend more time with artists, exhibitions and collectors.",
           "For established galleries, this means more control and less dependency.",
           "For younger gallerists, it means starting with professional foundations before building a larger team.",
-          "Vitreen is being built for both.",
+          "Good Artworks is being built for both.",
         ],
-        signature: { name: "Rapha\u00ebl", role: "Founder, Vitreen" },
+        signature: { name: "Rapha\u00ebl", role: "Founder, Good Artworks" },
       },
       audiences: [
         {
           title: "For established galleries",
-          text: "Vitreen strengthens existing operations.",
+          text: "Good Artworks strengthens existing operations.",
         },
         {
           title: "For new gallerists",
@@ -1465,8 +1465,8 @@ export const translations = {
       columns: {
         platform: "Product",
         solutions: "Solutions",
-        company: "Vitreen",
-        studio: "Vitreen Studio",
+        company: "Good Artworks",
+        studio: "Good Artworks Studio",
       },
       links: {
         artworkManagement: "Artwork inventory",

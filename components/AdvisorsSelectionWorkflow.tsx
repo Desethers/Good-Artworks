@@ -745,7 +745,7 @@ function ConnectedInquiry() {
         <div>
           <h3 className="text-[13px] font-medium text-zinc-900 lg:text-[15px]">Inquiries</h3>
           <p className="mt-0.5 text-[9px] text-zinc-400 lg:text-[10px]">
-            Vitreen · Collector inbox
+            Good Artworks · Collector inbox
           </p>
         </div>
         <span className="rounded-full border border-zinc-200 px-2.5 py-1 text-[9px] text-zinc-500 lg:px-3 lg:py-1.5 lg:text-[10px]">

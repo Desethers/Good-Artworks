@@ -502,7 +502,7 @@ export const PILLARS = [
   {
     number: "02",
     title: "Connect & build",
-    desc: "Vitreen connects artwork files, selections and collector communication into one flow.",
+    desc: "Good Artworks connects artwork files, selections and collector communication into one flow.",
     Mock: ConnectMock,
   },
   {

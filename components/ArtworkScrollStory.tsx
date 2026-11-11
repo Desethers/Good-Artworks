@@ -357,7 +357,7 @@ function ConnectedProductsVisual() {
               ◫
             </span>
             <div>
-              <p className="text-[14px] font-medium text-[#111110]">Vitreen</p>
+              <p className="text-[14px] font-medium text-[#111110]">Good Artworks</p>
               <p className="text-[9px] text-[#ADADAA]">One artwork source</p>
             </div>
           </div>

@@ -8,7 +8,7 @@ export type FounderCopy = { title: string; body: string; cta: string };
 
 export const FOUNDER_EN: FounderCopy = {
   title: "Built by one founder in Paris. In public.",
-  body: "No sales team, no account managers. Founding galleries talk directly to the person who builds Vitreen, and what they ask for gets built first.",
+  body: "No sales team, no account managers. Founding galleries talk directly to the person who builds Good Artworks, and what they ask for gets built first.",
   cta: "Talk to the founder",
 };
 

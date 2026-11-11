@@ -6,7 +6,7 @@ import LandingFaq from "@/components/landing/LandingFaq";
 import LandingCta from "@/components/landing/LandingCta";
 
 export const metadata: Metadata = {
-  title: { absolute: "Vitreen — preview (Glide layout)" },
+  title: { absolute: "Good Artworks — preview (Glide layout)" },
   robots: { index: false, follow: false },
 };
 

@@ -83,7 +83,7 @@ export default function Nav() {
               href={href("/")}
               className="w-32 shrink-0 font-display text-[15px] tracking-tight text-[#111110] md:text-base"
             >
-              Vitreen
+              Good Artworks
             </a>
           </div>
 

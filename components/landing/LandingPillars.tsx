@@ -72,7 +72,7 @@ export const PILLARS_EN: PillarsCopy = {
   ],
 };
 
-/** The page's map: the two halves of Vitreen, each linking to its section below. */
+/** The page's map: the two halves of Good Artworks, each linking to its section below. */
 export function PillarsSection({ copy }: { copy: PillarsCopy }) {
   return (
     <section className={`${SECTION} bg-white`}>

@@ -11,13 +11,13 @@ import LandingCta from "@/components/landing/LandingCta";
 import { alternates } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: { absolute: "Vitreen — Your inventory in Gmail and WhatsApp" },
+  title: { absolute: "Good Artworks — Your inventory in Gmail and WhatsApp" },
   description:
     "Find any work in your inventory and send its details from Gmail or WhatsApp. For art galleries, design and antique dealers.",
   alternates: alternates("en", "/"),
   openGraph: {
     url: "/",
-    title: "Vitreen — Your inventory in Gmail and WhatsApp",
+    title: "Good Artworks — Your inventory in Gmail and WhatsApp",
     description:
       "Find any work in your inventory and send its details from Gmail or WhatsApp. For art galleries, design and antique dealers.",
   },

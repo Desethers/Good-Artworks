@@ -35,7 +35,7 @@ export default function LandingHeroFr() {
           </h1>
 
           <p className="hero-soft hero-d-3 mx-auto mt-[16px] max-w-4xl text-balance text-[22px] leading-[1.35] tracking-[0em] text-[#6B6A67]">
-            Vitreen connecte votre inventaire à vos conversations : e-mail et WhatsApp.
+            Good Artworks connecte votre inventaire à vos conversations : e-mail et WhatsApp.
           </p>
 
           <div className="hero-soft hero-d-4 mx-auto mt-[18px] flex max-w-[300px] flex-col items-stretch gap-3 sm:max-w-none sm:flex-row sm:items-center sm:justify-center md:mt-[22px]">

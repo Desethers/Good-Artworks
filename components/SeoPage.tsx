@@ -179,7 +179,7 @@ function DataSafetyCard({ lang }: { lang: Lang }) {
   );
 }
 
-/** The four reasons Vitreen brings a collector back to you, from the home's feed. */
+/** The four reasons Good Artworks brings a collector back to you, from the home's feed. */
 function FollowUpKindsCard({ lang }: { lang: Lang }) {
   const kinds = (lang === "fr" ? CONVERSATION_SECTIONS_FR : CONVERSATION_SECTIONS_EN).feed.kinds;
   const tones = [
@@ -309,7 +309,7 @@ function PageSchema({ c, lang }: { c: SeoPageCopy; lang: Lang }) {
   if (c.featureList) {
     graph.push({
       "@type": "SoftwareApplication",
-      name: "Vitreen",
+      name: "Good Artworks",
       description: c.meta.description,
       applicationCategory: "BusinessApplication",
       operatingSystem: "Web",

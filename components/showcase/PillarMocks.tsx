@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 
 /* ──────────────────────────────────────────────────────────────────────
- * Mockups statiques du dashboard Gallery OS — 4 piliers Vitreen.
+ * Mockups statiques du dashboard Gallery OS — 4 piliers Good Artworks.
  * Visuels calqués sur le vrai produit (palette zinc, lucide-style icons,
  * typo/density identiques à app.galleryos / dashboard).
  * ────────────────────────────────────────────────────────────────────── */
@@ -432,7 +432,7 @@ export function GalleryOsSidebar({
             <Icon.Stack size={8} />
           </div>
           <span className="flex-1 text-[10px] font-semibold tracking-tight text-zinc-900">
-            Vitreen
+            Good Artworks
           </span>
           <Icon.Search size={9} className="text-zinc-500" />
           <Icon.Bell size={9} className="text-zinc-500" />
@@ -469,7 +469,7 @@ export function GalleryOsSidebar({
       {/* Footer */}
       <div className="flex items-center justify-between px-3 py-3">
         <p className="text-[7.5px] text-zinc-400">Sign out</p>
-        <p className="text-[7.5px] text-zinc-300">© Vitreen</p>
+        <p className="text-[7.5px] text-zinc-300">© Good Artworks</p>
       </div>
     </aside>
   );

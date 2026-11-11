@@ -37,12 +37,12 @@ const TOOLS_ITEMS = [
   },
 ];
 
-/** Le cas de démo : Marie demande, Vitreen prépare, quelqu’un relit et envoie. */
+/** Le cas de démo : Marie demande, Good Artworks prépare, quelqu’un relit et envoie. */
 const DEMO_CASE_FR: DemoCaseCopy = {
   channel: "WhatsApp",
   who: "Marie Beaumont",
   question: "Du nouveau chez Sacha Elron ?",
-  prepared: "Préparé par Vitreen",
+  prepared: "Préparé par Good Artworks",
   reply:
     "Bonjour Marie, un nouvel Elron vient d’arriver, le grand format que vous aimiez en mars. Je vous envoie plus d’images ?",
   work: {
@@ -129,7 +129,7 @@ export default function LandingNavFr() {
             className="flex items-center gap-2 font-display text-base tracking-tight text-[#111110] md:text-lg"
           >
             <img src="/favicon.png" alt="" className="h-5 w-5 rounded-[5px]" />
-            Vitreen
+            Good Artworks
           </a>
 
           <nav className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-7 md:flex">

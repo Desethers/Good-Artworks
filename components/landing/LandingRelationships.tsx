@@ -24,7 +24,7 @@ const EN_COPY: RelationshipsCopy = {
   eyebrow: "Remember",
   title: "Every collector, remembered.",
   intro:
-    "Vitreen keeps a memory of every {gmail}Gmail and {whatsapp}WhatsApp conversation, linked to the artworks discussed.",
+    "Good Artworks keeps a memory of every {gmail}Gmail and {whatsapp}WhatsApp conversation, linked to the artworks discussed.",
   link: {
     name: "Who received what",
     body: "Attaches every request and every work you send to the collector and to the work: who asked, who received it, whether they opened it.",

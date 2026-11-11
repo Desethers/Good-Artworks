@@ -116,7 +116,9 @@ export function ConnectInventoryMockup({
   return (
     <div className="flex h-full w-full flex-col overflow-hidden rounded-[16px] border border-[#E4E4E7] bg-white p-6">
       <h3 className="text-[14px] font-semibold text-[#18181B]">Connect your inventory</h3>
-      <p className="mt-1 text-[11px] text-[#3F3F46]">Choose how to bring your works into Vitreen</p>
+      <p className="mt-1 text-[11px] text-[#3F3F46]">
+        Choose how to bring your works into Good Artworks
+      </p>
 
       <div className="mt-4 flex flex-1 flex-col justify-between gap-2.5">
         {CONNECT_OPTIONS.map((option) => {
@@ -161,7 +163,7 @@ export function ConnectInventoryMockup({
 
 export function GalleryOsSearchWidget({
   insertLabel = "Insert an artwork",
-  searchLabel = "Search Vitreen",
+  searchLabel = "Search Good Artworks",
   searchCta = "Search",
   galleryViewCta = "Gallery view",
 }: {
@@ -172,7 +174,9 @@ export function GalleryOsSearchWidget({
 }) {
   return (
     <div className="mx-auto w-full max-w-[266px] overflow-hidden rounded-[8px] border border-[#E8E8E6] bg-white">
-      <div className="bg-[#424242] px-4 py-3 text-[12px] font-semibold text-white">Vitreen</div>
+      <div className="bg-[#424242] px-4 py-3 text-[12px] font-semibold text-white">
+        Good Artworks
+      </div>
       <div className="space-y-1 px-4 pt-4">
         <p className="text-[12px] text-[#111110]">{insertLabel}</p>
         <p className="text-[12px] text-[#6B6A67]">{searchLabel}</p>
@@ -303,7 +307,7 @@ function TypedCaption() {
 /*
  * Réplique du node Figma 526:2471 (WhatsApp Chat) — mêmes bulles (queues
  * incluses), photo d'œuvre, double-check bleu et carte PDF, exportés du
- * fichier Vitreen vers /mockups/whatsapp-figma-v2. La barre de saisie garde
+ * fichier Good Artworks vers /mockups/whatsapp-figma-v2. La barre de saisie garde
  * le contexte mobile et anime la commande juste avant son envoi.
  */
 const WA = "/mockups/whatsapp-figma-v2";

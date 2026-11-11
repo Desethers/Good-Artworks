@@ -4,7 +4,7 @@ import { FounderSection, type FounderCopy } from "@/components/landing/LandingFo
 
 const COPY: FounderCopy = {
   title: "Construit par un seul fondateur à Paris. En public.",
-  body: "Pas d’équipe commerciale, pas de chargé de compte. Les galeries fondatrices parlent directement à la personne qui construit Vitreen, et ce qu’elles demandent est construit en premier.",
+  body: "Pas d’équipe commerciale, pas de chargé de compte. Les galeries fondatrices parlent directement à la personne qui construit Good Artworks, et ce qu’elles demandent est construit en premier.",
   cta: "Parler au fondateur",
 };
 

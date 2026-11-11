@@ -5,7 +5,7 @@
  */
 
 export const SAMPLE_GALLERY = {
-  name: "Vitreen Gallery",
+  name: "Good Artworks Gallery",
 } as const;
 
 /** Featured artist shown across the marketing mocks. */

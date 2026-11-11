@@ -19,7 +19,7 @@ const nextConfig: NextConfig = {
      * fait rediriger une seconde fois — une chaîne que Google suit mais qui
      * dilue le signal. */
     return [
-      /* Studio a quitté Vitreen : le site vit désormais sur son propre domaine.
+      /* Studio a quitté Good Artworks : le site vit désormais sur son propre domaine.
        * La redirection préserve la structure de chemin, donc /studio/fr arrive
        * sur forart.world/fr et les anciennes URL d'images retombent sur leurs
        * équivalentes — un seul saut dans tous les cas. */

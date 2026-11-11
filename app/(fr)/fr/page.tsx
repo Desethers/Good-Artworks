@@ -12,14 +12,14 @@ import { alternates } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Vitreen — Votre inventaire dans Gmail et WhatsApp",
+    absolute: "Good Artworks — Votre inventaire dans Gmail et WhatsApp",
   },
   description:
     "Retrouvez n’importe quelle œuvre de votre inventaire et envoyez sa fiche depuis Gmail ou WhatsApp. Pour les galeries d’art, marchands de design et antiquaires.",
   alternates: alternates("fr", "/"),
   openGraph: {
     url: "/fr",
-    title: "Vitreen — Votre inventaire dans Gmail et WhatsApp",
+    title: "Good Artworks — Votre inventaire dans Gmail et WhatsApp",
     description:
       "Retrouvez n’importe quelle œuvre de votre inventaire et envoyez sa fiche depuis Gmail ou WhatsApp. Pour les galeries d’art, marchands de design et antiquaires.",
   },

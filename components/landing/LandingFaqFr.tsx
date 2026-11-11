@@ -8,16 +8,16 @@ const ease = [0.16, 1, 0.3, 1] as const;
 
 const ITEMS = [
   {
-    q: "Vitreen remplace-t-il Artlogic ?",
-    a: "Non. Vitreen fonctionne à côté, à partir de vos exports Artlogic — ou de vos tableurs et dossiers — et rend ces informations utilisables dans vos conversations WhatsApp.",
+    q: "Good Artworks remplace-t-il Artlogic ?",
+    a: "Non. Good Artworks fonctionne à côté, à partir de vos exports Artlogic — ou de vos tableurs et dossiers — et rend ces informations utilisables dans vos conversations WhatsApp.",
   },
   {
     q: "Dois-je d’abord migrer ma base ?",
-    a: "Non. Nous connectons ce que vous avez déjà. Si vos informations d’œuvres ne sont pas encore structurées, Vitreen peut s’en charger.",
+    a: "Non. Nous connectons ce que vous avez déjà. Si vos informations d’œuvres ne sont pas encore structurées, Good Artworks peut s’en charger.",
   },
   {
-    q: "Vitreen envoie-t-il des messages aux collectionneurs automatiquement ?",
-    a: "Non. Vitreen prépare la fiche et note pour qui elle est. Une personne de votre équipe la transfère toujours, depuis son propre WhatsApp.",
+    q: "Good Artworks envoie-t-il des messages aux collectionneurs automatiquement ?",
+    a: "Non. Good Artworks prépare la fiche et note pour qui elle est. Une personne de votre équipe la transfère toujours, depuis son propre WhatsApp.",
   },
   {
     q: "Que se passe-t-il si j’arrête ?",

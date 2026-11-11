@@ -12,7 +12,7 @@ const LINK_COLORS = ["#4B5FC0", "#B5602B", "#2F8063", "#9B4F8B"] as const;
 const content = {
   en: {
     eyebrow: "Who it's for",
-    title: "Who is Vitreen for?",
+    title: "Who is Good Artworks for?",
     subtitle: "Built for the people who present and sell art.",
     exploreLabel: "For",
     audiences: [
@@ -47,7 +47,7 @@ const content = {
   },
   fr: {
     eyebrow: "Pour qui",
-    title: "À qui s’adresse Vitreen ?",
+    title: "À qui s’adresse Good Artworks ?",
     subtitle: "Pensé pour celles et ceux qui présentent et vendent l’art.",
     exploreLabel: "Pour",
     audiences: [
