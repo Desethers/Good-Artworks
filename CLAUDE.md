@@ -1,4 +1,11 @@
-# Vitreen — guide de collaboration
+# Good Artworks — guide de collaboration
+
+> **Renommage (2026-11-11) :** Vitreen est devenu **Good Artworks**, domaine
+> canonique https://goodart.works (vitreen.art redirige en 301). Des
+> identifiants gardent l'ancien nom : le cookie `vitreen-lang`, le composant
+> `WhoVitreenIsFor`, le fichier `vitreen-playbook.md`, le projet Vercel et les
+> entrées de `.claude/launch.json`. Les mentions « Vitreen » du playbook sont
+> à lire comme « Good Artworks ».
 
 Ce fichier est lu à chaque session. Il sert de mémoire stable du projet :
 positionnement, conventions, pièges à éviter. À enrichir au fil du temps.
@@ -12,16 +19,16 @@ positionnement, conventions, pièges à éviter. À enrichir au fil du temps.
 
 ## 1. Positionnement
 
-> **Thèse du 2026-09-29** (playbook) : Vitreen garde l'information
+> **Thèse du 2026-09-29** (playbook) : Good Artworks garde l'information
 > des œuvres en mouvement et les conversations avec les collectionneurs en
 > mémoire. Remplace « un produit, trois têtes » (2026-09-28) et les 3 branches
 > du 2026-08-11 (Layer / Studio / Gallery Assistant), caducs :
 >
-> - **Studio a quitté Vitreen** le 2026-08-31 → R.R Studio sur forart.world
+> - **Studio a quitté Good Artworks** le 2026-08-31 → R.R Studio sur forart.world
 >   (repo et domaine séparés, `/studio` redirige). Rien de Studio ici.
 > - **Gallery Assistant** n'est plus une offre : l'assistant IA est une
 >   fonction du produit, pas son centre.
-> - **Layer** n'est plus un nom : c'est simplement « Vitreen ».
+> - **Layer** n'est plus un nom : c'est simplement « Good Artworks ».
 > - **viewingroom.studio** est un **produit totalement séparé** (aucune donnée
 >   ni CRM partagés, jamais dans le même pitch).
 
@@ -31,7 +38,7 @@ positionnement, conventions, pièges à éviter. À enrichir au fil du temps.
 > avec les collectionneurs en mémoire. Parce que dans l'art et le design, la
 > relation est le business.**
 
-Vitreen connecte **œuvres, collectionneurs et conversations**. L'inventaire
+Good Artworks connecte **œuvres, collectionneurs et conversations**. L'inventaire
 sait les œuvres, les conversations révèlent la relation, la mémoire relie le
 passé à la prochaine action. Le produit n'est aucun module : c'est la
 connexion entre eux.
@@ -56,7 +63,7 @@ connexion entre eux.
   raison crédible de s'y intéresser », avec un message distinct pour chacune.
 - **La boucle** (playbook §10) : conversation → personne reconnue → objet et
   intention compris → information retrouvée → réponse, sélection ou PDF
-  préparé → un humain relit et envoie → Vitreen se souvient → la prochaine
+  préparé → un humain relit et envoie → Good Artworks se souvient → la prochaine
   interaction part de ce contexte. Toute fonction doit renforcer au moins une
   étape, sinon on ne la construit pas.
 - **Le cas de démo** (playbook §37) : Marie écrit « Anything new from Sacha
@@ -71,7 +78,7 @@ l'**extraction d'intention et de préférences** depuis les messages, la
 **propriété d'un collectionneur par un membre de l'équipe** et la **diffusion
 proactive**. État exact : playbook §42. Ne jamais promettre au-delà.
 
-**Vision interne (jamais du copy) :** Vitreen prépare les galeries physiques
+**Vision interne (jamais du copy) :** Good Artworks prépare les galeries physiques
 à un web où collectionneurs et IA interrogent les galeries au lieu de les
 parcourir. Une galerie ne peut répondre que si ses informations sont au même
 endroit, propres, structurées et connectées. Le site ne dit jamais « 2030 »,
@@ -79,7 +86,7 @@ endroit, propres, structurées et connectées. Le site ne dit jamais « 2030 »,
 
 ### Face à Artlogic
 
-Complémentaire, jamais remplaçant : « Artlogic stocke vos œuvres. Vitreen les
+Complémentaire, jamais remplaçant : « Artlogic stocke vos œuvres. Good Artworks les
 fait circuler dans vos conversations — et se souvient de qui a reçu quoi. »
 Tant qu'aucune synchro native n'existe, écrire « à partir de vos exports
 Artlogic », jamais « intégration Artlogic ». Ne jamais inviter à une
@@ -90,7 +97,7 @@ comparaison de prix avec Artlogic.
 | Offre                             | Prix                                     | Engagement                   |
 | --------------------------------- | ---------------------------------------- | ---------------------------- |
 | **Galerie fondatrice** (3 places) | 149 €/mois                               | 3 mois minimum, puis au mois |
-| **Vitreen** (prix public)         | 249 €/mois, ou 199 €/mois payé à l'année | Sans engagement              |
+| **Good Artworks** (prix public)   | 249 €/mois, ou 199 €/mois payé à l'année | Sans engagement              |
 
 Les deux : **par galerie, utilisateurs illimités**, installation incluse (une
 semaine environ). Le raisonnement face aux concurrents (Artlogic, Arternal, ArtCloud, Wati…)
@@ -122,7 +129,7 @@ limite).
 
 ### Indie hacker
 
-Vitreen se construit à la manière indie : un fondateur, un produit, des petits
+Good Artworks se construit à la manière indie : un fondateur, un produit, des petits
 pas visibles, du build in public. **C'est une manière de construire et de
 communiquer, pas un modèle de prix** : l'installation reste personnelle.
 
@@ -133,7 +140,7 @@ communiquer, pas un modèle de prix** : l'installation reste personnelle.
 **Préférer**
 
 - **« relationship intelligence »** (le nom public : « Relationship intelligence
-  for selling art & design »), puis « mémoire » (ce que Vitreen garde de chaque
+  for selling art & design »), puis « mémoire » (ce que Good Artworks garde de chaque
   collectionneur) — dans cet ordre
 - « historique du collectionneur », « qui a reçu quoi »
 - « CRM » peut se dire en public pour expliquer (« un CRM qui se remplit tout
@@ -142,7 +149,7 @@ communiquer, pas un modèle de prix** : l'installation reste personnelle.
 - « dans Gmail et WhatsApp », « organiser le bruit »
 - « préparé par l'IA, envoyé par votre équipe », « groundé sur vos fiches »
 - « fonctionne à côté d'Artlogic »
-- « sélection privée » (**jamais « viewing room »** côté Vitreen : ce nom
+- « sélection privée » (**jamais « viewing room »** côté Good Artworks : ce nom
   appartient à viewingroom.studio)
 
 **Éviter**
@@ -162,7 +169,7 @@ communiquer, pas un modèle de prix** : l'installation reste personnelle.
 - L'agent **prépare**, l'humain **envoie**. Jamais d'envoi autonome.
 - L'IA ne répond que depuis les fiches de la galerie. Jamais un prix inventé.
 - Pas de claim « vendez plus » tant que ce n'est pas mesuré sur des clients.
-- « Le CRM se remplit tout seul » seulement pour ce que Vitreen capte (§1).
+- « Le CRM se remplit tout seul » seulement pour ce que Good Artworks capte (§1).
 
 ---
 
@@ -209,13 +216,13 @@ public/
 ### Dette connue
 
 - `tools/viewing-rooms` : le nom de la page contredit la règle « jamais
-  viewing room côté Vitreen ». À renommer (« private selections ») ou retirer.
+  viewing room côté Good Artworks ». À renommer (« private selections ») ou retirer.
 - `/about`, `/solutions/*` : discours antérieur au recentrage du 2026-09-28,
   à relire.
 - Footer : garde une colonne « Vitreen Studio » qui pointe vers forart.world —
   à confirmer ou retirer.
 - `GalleryOsSearchWidget` dans `ArtworkAddInMocks.tsx` : le texte affiché dit
-  « Vitreen », mais le **nom de la fonction** garde l'ancien nom.
+  « Good Artworks », mais le **nom de la fonction** garde l'ancien nom.
 - `.claude/launch.json` est suivi par git alors qu'il est propre à chaque
   machine/worktree.
 
@@ -224,7 +231,7 @@ public/
 ## 5. La landing (`components/landing/`)
 
 **Doctrine : la home est un récit linéaire, pas une home SaaS.**
-Personne ne connaît Vitreen. Ordre voulu :
+Personne ne connaît Good Artworks. Ordre voulu :
 
 1. **Reconnaissance** — le moment vécu : un collectionneur demande, le
    matériel est ailleurs, personne ne se souvient de ce qui a été envoyé.
