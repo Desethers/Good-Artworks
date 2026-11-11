@@ -1054,7 +1054,7 @@ function WhatsAppSection({ c }: { c: ConversationSectionsCopy["whatsapp"] }) {
     // Phones: heading, phone, caption. Desktop: heading and steps left, phone right.
     <div
       ref={ref}
-      className="mx-auto grid max-w-5xl gap-5 md:grid-cols-2 md:grid-rows-[1fr_auto_1fr] md:gap-x-20 md:gap-y-0"
+      className="mx-auto grid max-w-6xl gap-5 md:grid-cols-2 md:grid-rows-[1fr_auto_1fr] md:gap-x-20 md:gap-y-0"
     >
       <div className="max-w-lg md:col-start-1 md:row-start-1 md:self-end">
         <RowHeading eyebrow={c.eyebrow} title={c.title} sub={c.sub} logo="/logos/whatsapp.svg" />

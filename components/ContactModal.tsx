@@ -140,39 +140,42 @@ export default function ContactModal() {
 
             {view === "book" ? (
               <div className="grid md:grid-cols-[300px_1fr]">
-                <div className="flex flex-col border-b border-[#E8E8E6] bg-white p-6 md:border-b-0 md:border-r md:p-8">
-                  <h2
-                    id="contact-modal-title"
-                    className="pr-10 font-display text-[22px] leading-tight tracking-[-0.02em] text-[#111110]"
-                  >
-                    {t.nav.modal.bookTitle}
-                  </h2>
-                  <p className="mt-2 text-sm text-[#6B6A67]">{t.nav.modal.bookFor}</p>
-                  <p className="mt-1 text-[13px] text-[#ADADAA]">{t.nav.modal.bookMeta}</p>
+                <div className="relative flex flex-col overflow-hidden bg-[#111110] bg-[url(/book-demo-bg.jpg)] bg-cover bg-center p-6 md:p-8">
+                  <div aria-hidden className="pointer-events-none absolute inset-0 bg-black/40" />
+                  <div className="relative flex flex-1 flex-col">
+                    <h2
+                      id="contact-modal-title"
+                      className="pr-10 font-display text-[22px] leading-tight tracking-[-0.02em] text-white"
+                    >
+                      {t.nav.modal.bookTitle}
+                    </h2>
+                    <p className="mt-2 text-sm text-white/80">{t.nav.modal.bookFor}</p>
+                    <p className="mt-1 text-[13px] text-white/60">{t.nav.modal.bookMeta}</p>
 
-                  <p className="mt-6 text-[12px] font-medium uppercase tracking-[0.08em] text-[#ADADAA] md:mt-8">
-                    {t.nav.modal.bookIntro}
-                  </p>
-                  <ol className="mt-4 flex flex-col gap-3">
-                    {t.nav.modal.bookSteps.map((step, i) => (
-                      <li key={step} className="flex items-center gap-3">
-                        <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full border border-[#DCDCD8] bg-white text-[12px] text-[#111110]">
-                          {i + 1}
-                        </span>
-                        <p className="text-sm leading-snug text-[#111110]">{step}</p>
-                      </li>
-                    ))}
-                  </ol>
+                    <p className="mt-6 text-[12px] font-medium uppercase tracking-[0.08em] text-white/60 md:mt-8">
+                      {t.nav.modal.bookIntro}
+                    </p>
+                    <ol className="mt-4 flex flex-col gap-3">
+                      {t.nav.modal.bookSteps.map((step, i) => (
+                        <li key={step} className="flex items-center gap-3">
+                          <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full border border-white/40 text-[12px] text-white">
+                            {i + 1}
+                          </span>
+                          <p className="text-sm leading-snug text-white">{step}</p>
+                        </li>
+                      ))}
+                    </ol>
 
-                  <p className="mt-6 text-sm text-[#111110] md:mt-8">{t.nav.modal.bookReassure}</p>
+                    <p className="mt-6 text-sm text-white md:mt-8">{t.nav.modal.bookReassure}</p>
 
-                  <button
-                    type="button"
-                    onClick={() => setView("write")}
-                    className="mt-4 w-fit cursor-pointer text-sm text-[#6B6A67] underline underline-offset-2 hover:text-[#111110] md:mt-auto md:pt-8"
-                  >
-                    {t.nav.modal.bookAlt}
-                  </button>
+                    <button
+                      type="button"
+                      onClick={() => setView("write")}
+                      className="mt-4 w-fit cursor-pointer text-sm text-white/80 underline underline-offset-2 hover:text-white md:mt-auto md:pt-8"
+                    >
+                      {t.nav.modal.bookAlt}
+                    </button>
+                  </div>
                 </div>
 
                 <div className="p-4 md:p-6 md:pt-12">

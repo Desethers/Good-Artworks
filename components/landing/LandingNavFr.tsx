@@ -124,7 +124,10 @@ export default function LandingNavFr() {
         }`}
       >
         <div className="relative mx-auto flex h-9 w-full max-w-7xl items-center justify-between">
-          <a href="/fr" className="font-wordmark text-xl tracking-tight text-[#111110] md:text-2xl">
+          <a
+            href="/fr"
+            className="font-wordmark text-xl tracking-tight text-[#111110] transition-colors duration-200 hover:text-[#6B6A67] md:text-2xl"
+          >
             <span className="font-semibold">Good Art</span>
             <span className="font-normal">works</span>
           </a>
