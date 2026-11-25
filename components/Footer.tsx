@@ -135,7 +135,13 @@ export default function Footer() {
           </div>
 
           <div className="mt-16 grid gap-3 pt-6 text-[12px] text-[#6B6A67] sm:grid-cols-[1fr_auto_1fr] sm:items-center md:mt-20">
-            <p>© 2026 Good Artworks</p>
+            <p>
+              © 2026 Good Artworks ·{" "}
+              {/* English only: the policy is written for Google's OAuth review. */}
+              <a href="/privacy" className="transition-colors duration-200 hover:text-white">
+                {lang === "fr" ? "Confidentialité" : "Privacy"}
+              </a>
+            </p>
             <div className="flex items-center gap-4">
               <LanguageSwitch />
               <p>{t.footer.location}</p>
