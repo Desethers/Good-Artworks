@@ -141,6 +141,10 @@ export default function Footer() {
               <a href="/privacy" className="transition-colors duration-200 hover:text-white">
                 {lang === "fr" ? "Confidentialité" : "Privacy"}
               </a>
+              {" · "}
+              <a href="/terms" className="transition-colors duration-200 hover:text-white">
+                {lang === "fr" ? "Conditions" : "Terms"}
+              </a>
             </p>
             <div className="flex items-center gap-4">
               <LanguageSwitch />
